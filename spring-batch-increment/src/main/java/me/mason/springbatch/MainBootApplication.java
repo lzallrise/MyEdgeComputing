@@ -8,11 +8,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * 程序入口
- * @author  mason
- * @since  2019/6/1
- */
+
 @SpringBootApplication
 @EnableAutoConfiguration
 @EnableScheduling
