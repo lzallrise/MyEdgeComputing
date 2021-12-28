@@ -47,6 +47,7 @@ public class JobLauncherService {
         Map<String,Object> resultMap = CollUtil.newHashMap();
         //计时
         StopWatch stopWatch = new StopWatch();
+        job.getName();
         stopWatch.start(job.getName());
         //执行任务
         JobExecution run = jobLauncher.run(job, jobParameters);

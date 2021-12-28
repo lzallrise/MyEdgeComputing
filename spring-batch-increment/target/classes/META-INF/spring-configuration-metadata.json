@@ -7,6 +7,12 @@
       "sourceMethod": "batchDatasource()"
     },
     {
+      "name": "spring.edge-datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "me.mason.springbatch.config.DataSourceConfig",
+      "sourceMethod": "edgeDatasource()"
+    },
+    {
       "name": "spring.origin-datasource",
       "type": "javax.sql.DataSource",
       "sourceType": "me.mason.springbatch.config.DataSourceConfig",

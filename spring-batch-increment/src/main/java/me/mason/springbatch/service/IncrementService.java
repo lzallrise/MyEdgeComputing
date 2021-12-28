@@ -24,6 +24,11 @@ public class IncrementService extends CommonService {
     }
 
     @Override
+    public Date selectMaxUpdateTime2() {
+        return targetUserRepository.selectMaxUpdateTime2();
+    }
+
+    @Override
     public int getCdcTempId() {
         return SyncConstants.CDC_TEMP_ID_USER;
     }

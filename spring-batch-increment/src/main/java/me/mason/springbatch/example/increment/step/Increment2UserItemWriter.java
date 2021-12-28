@@ -2,6 +2,7 @@ package me.mason.springbatch.example.increment.step;
 
 import me.mason.springbatch.dao.target.TargetUserRepository;
 import me.mason.springbatch.entity.User;
+import me.mason.springbatch.entity.User2;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -14,15 +15,15 @@ import java.util.Objects;
  * @author mason
  * @since 2019/5/31
  */
-public class IncrementUserItemWriter implements ItemWriter<User> {
+public class Increment2UserItemWriter implements ItemWriter<User2> {
     @Autowired
     private TargetUserRepository targetUserRepository;
 
     @Override
-    public void write(List<? extends User> items) throws Exception {
+    public void write(List<? extends User2> items) throws Exception {
         if(Objects.nonNull(items))
         {
-            targetUserRepository.getSQLManager().updateBatch("user.insertIncreUser",items);
+            targetUserRepository.getSQLManager().updateBatch("user2.insertEdgeIncreUser",items);
         }
     }
 }

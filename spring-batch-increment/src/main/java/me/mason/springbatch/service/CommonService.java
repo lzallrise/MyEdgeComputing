@@ -2,6 +2,7 @@ package me.mason.springbatch.service;
 
 import me.mason.springbatch.common.SyncConstants;
 import me.mason.springbatch.entity.CdcTemp;
+import me.mason.springbatch.entity.CdcTemp2;
 import me.mason.springbatch.util.JobUtil;
 import org.springframework.batch.core.JobParameters;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,13 +38,33 @@ public abstract class CommonService {
         }
         return JobUtil.makeJobParameters(currentCdcTemp);
     }
-
+    /**
+     * 初始化作业参数
+     * @return
+     */
+    public JobParameters initJobParam2(){
+        CdcTemp2 currentCdcTemp = cdcTempService.getCurrentCdcTemp2(getCdcTempId());
+        //若未初始化，则先查询数据库中对应的最后时间
+        if(SyncConstants.STR_STATUS_INIT.equals(currentCdcTemp.getStatus())
+                || SyncConstants.STR_STATUS_FAILED.equals(currentCdcTemp.getStatus())){
+            Date maxUpdateTime = selectMaxUpdateTime2();
+            //若没有数据，则按初始时间处理
+            if(Objects.nonNull(maxUpdateTime)){
+                currentCdcTemp.setLastUpdateTime(maxUpdateTime);
+            }
+        }
+        return JobUtil.makeJobParameters2(currentCdcTemp);
+    }
     /**
      * 查询当前数据的最新时间
      * @return 日期
      */
     public abstract Date selectMaxUpdateTime();
-
+    /**
+     * 查询当前数据的最新时间
+     * @return 日期
+     */
+    public abstract Date selectMaxUpdateTime2();
     /**
      * 返回当前需要处理的cdcTemp的ID
      * @return

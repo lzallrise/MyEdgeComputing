@@ -1,9 +1,10 @@
-package me.mason.springbatch.example.increment.step;
+package me.mason.springbatch.example.incrementReverse.step;
 
 import lombok.extern.slf4j.Slf4j;
 import me.mason.springbatch.dao.edge.EdgeUserRepository;
 import me.mason.springbatch.dao.origin.OriginUserRepository;
-import me.mason.springbatch.entity.User;
+import me.mason.springbatch.dao.target.TargetUserRepository;
+import me.mason.springbatch.entity.User2;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.NonTransientResourceException;
 import org.springframework.batch.item.ParseException;
@@ -20,20 +21,18 @@ import java.util.Objects;
  * @since  2019/6/1
  **/
 @Slf4j
-public class IncrementUserItemReader implements ItemReader<User> {
-    protected List<User> items;
+public class IncrementReverse2UserItemReader implements ItemReader<User2> {
+    protected List<User2> items;
 
     protected Map<String,Object> params;
     @Autowired
-    private OriginUserRepository originUserRepository;
-    @Autowired
-    private EdgeUserRepository edgeUserRepository;
+    private TargetUserRepository targetUserRepository;
 
     @Override
-    public User read() throws Exception, UnexpectedInputException, ParseException, NonTransientResourceException {
+    public User2 read() throws Exception, UnexpectedInputException, ParseException, NonTransientResourceException {
         if(Objects.isNull(items)){
             //使用beetlsql的md执行sql
-            items = originUserRepository.getOriginIncreUser(params);
+            items = targetUserRepository.getTargetEdgeIncreUser(params);
             if(items.size() > 0){
                 return items.remove(0);
             }

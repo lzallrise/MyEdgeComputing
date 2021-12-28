@@ -37,6 +37,11 @@ public class DataSourceConfig {
         return DataSourceBuilder.create().build();
     }
 
+    @Bean("edgeDatasource")
+    @ConfigurationProperties(prefix = "spring.edge-datasource")
+    public DataSource edgeDatasource(){
+        return DataSourceBuilder.create().build();
+    }
     /**
      * 自定义sqlManager
      * @return

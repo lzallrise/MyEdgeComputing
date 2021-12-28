@@ -3,6 +3,7 @@ package me.mason.springbatch.util;
 import cn.hutool.core.date.DateUtil;
 import me.mason.springbatch.common.SyncConstants;
 import me.mason.springbatch.entity.CdcTemp;
+import me.mason.springbatch.entity.CdcTemp2;
 import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.JobParametersBuilder;
 
@@ -24,11 +25,25 @@ public class JobUtil {
         return jobParameters;
     }
 
+
     /**
      * 以当前时间作为参数，构建JobParameters
      * @return
      */
     public static JobParameters makeJobParameters(CdcTemp currentCdcTemp) {
+        String lastUpdateTime = DateUtil.formatDateTime(currentCdcTemp.getLastUpdateTime());
+        JobParameters jobParameters = new JobParametersBuilder()
+                .addLong("time",System.currentTimeMillis())
+                .addString(SyncConstants.STR_LAST_UPDATE_TIME,lastUpdateTime)
+                .toJobParameters();
+
+        return jobParameters;
+    }
+    /**
+     * 以当前时间作为参数，构建JobParameters
+     * @return
+     */
+    public static JobParameters makeJobParameters2(CdcTemp2 currentCdcTemp) {
         String lastUpdateTime = DateUtil.formatDateTime(currentCdcTemp.getLastUpdateTime());
         JobParameters jobParameters = new JobParametersBuilder()
                 .addLong("time",System.currentTimeMillis())

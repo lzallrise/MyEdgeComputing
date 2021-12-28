@@ -12,5 +12,5 @@ CREATE TABLE IF NOT EXISTS `cdc_temp` (
   PRIMARY KEY (`id`)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8 COMMENT='变更数据捕获(cdc)临时表';
 
-INSERT IGNORE INTO cdc_temp VALUE(1,'2000-01-01 00:00:00',NOW(),'0','0','test_user','用户信息','INIT');
+INSERT IGNORE INTO cdc_temp VALUE(2,'2000-01-01 00:00:00',NOW(),'0','0','test_user','用户信息','INIT');
 

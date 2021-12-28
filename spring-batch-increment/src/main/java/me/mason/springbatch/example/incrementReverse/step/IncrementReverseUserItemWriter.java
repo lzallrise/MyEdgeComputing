@@ -1,5 +1,6 @@
-package me.mason.springbatch.example.increment.step;
+package me.mason.springbatch.example.incrementReverse.step;
 
+import me.mason.springbatch.dao.origin.OriginUserRepository;
 import me.mason.springbatch.dao.target.TargetUserRepository;
 import me.mason.springbatch.entity.User;
 import org.springframework.batch.item.ItemWriter;
@@ -14,15 +15,15 @@ import java.util.Objects;
  * @author mason
  * @since 2019/5/31
  */
-public class IncrementUserItemWriter implements ItemWriter<User> {
+public class IncrementReverseUserItemWriter implements ItemWriter<User> {
     @Autowired
-    private TargetUserRepository targetUserRepository;
+    private OriginUserRepository originUserRepository;
 
     @Override
     public void write(List<? extends User> items) throws Exception {
         if(Objects.nonNull(items))
         {
-            targetUserRepository.getSQLManager().updateBatch("user.insertIncreUser",items);
+            originUserRepository.getSQLManager().updateBatch("user.insertTargetIncreUser",items);
         }
     }
 }

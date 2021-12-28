@@ -60,4 +60,15 @@ public class SyncConstants {
      * 用户同步ID
      */
     public static int CDC_TEMP_ID_USER = 1;
+    //******** cdc_reverse_temp id
+    /**
+     * 用户同步ID 云端to边缘端
+     */
+    public static int CDC_REVERSE_TEMP_ID_USER = 2;
+
+    //******** cdc_reverse_temp id
+    /**
+     * 用户同步ID  状态是否更新
+     */
+    public static int CDC_ISUPDATE_TEMP_ID_USER = 3;
 }
