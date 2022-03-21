@@ -1,0 +1,364 @@
+2022-03-11 13:50:07.901 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 14492 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 13:50:07.901 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-11 13:50:12.777 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-11 13:50:12.862 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2022-03-11 13:50:13.506 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cbef8d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 13:50:14.240 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 13:50:14.266 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 13:50:14.276 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 13:50:14.276 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-11 13:50:14.467 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 13:50:14.467 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 6112 ms
+2022-03-11 13:50:14.833 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 13:50:15.341 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 13:50:15.763 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-11 13:50:15.765 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-11 13:50:16.104 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-11 13:50:16.511 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-11 13:50:17.971 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 13:50:18.313 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 13:50:18.448 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-11 13:50:18.471 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-11 13:50:18.741 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-11 13:50:18.767 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-11 13:50:19.082 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-11 13:50:20.108 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-11 13:50:20.425 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-11 13:50:20.819 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-11 13:50:20.873 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-11 13:50:21.028 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-11 13:50:21.098 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-11 13:50:21.166 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-11 13:50:21.214 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-11 13:50:21.467 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-11 13:50:21.499 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-11 13:50:21.502 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 14.77 seconds (JVM running for 21.068)
+2022-03-11 13:52:01.823 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementPrescriptionJob]] launched with the following parameters: [{time=1646977920493, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-11 13:52:03.260 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementPrescriptionStep]
+2022-03-11 13:52:04.208 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementPrescriptionItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-11 13:52:05.058 [scheduling-1] [] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-11 13:52:05.059 [scheduling-1] [] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-11 13:52:05.325 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementPrescriptionJob]] completed with the following parameters: [{time=1646977920493, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-11 13:52:05.326 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4819
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04819  100%  incrementPrescriptionJob
+
+2022-03-11 13:52:06.407 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementWMedicalSJob]] launched with the following parameters: [{time=1646977925554, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-11 13:52:07.693 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementWMedicalSStep]
+2022-03-11 13:52:08.155 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-11 13:52:09.187 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementWMedicalSJob]] completed with the following parameters: [{time=1646977925554, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-11 13:52:09.187 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3633
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03633  100%  incrementWMedicalSJob
+
+2022-03-11 13:54:00.932 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementPrescriptionJob]] launched with the following parameters: [{time=1646978040058, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-11 13:54:02.211 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementPrescriptionStep]
+2022-03-11 13:54:02.626 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementPrescriptionItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-11 13:54:03.385 [scheduling-1] [] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-11 13:54:03.386 [scheduling-1] [] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-11 13:54:03.671 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementPrescriptionJob]] completed with the following parameters: [{time=1646978040058, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-11 13:54:03.671 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3613
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03613  100%  incrementPrescriptionJob
+
+2022-03-11 13:54:04.598 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementWMedicalSJob]] launched with the following parameters: [{time=1646978043736, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-11 13:54:05.905 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementWMedicalSStep]
+2022-03-11 13:54:06.320 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-11 13:54:07.341 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementWMedicalSJob]] completed with the following parameters: [{time=1646978043736, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-11 13:54:07.341 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3605
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03605  100%  incrementWMedicalSJob
+
+2022-03-11 13:58:48.095 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 19076 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 13:58:48.096 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-11 13:58:50.118 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-11 13:58:50.149 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2022-03-11 13:58:50.504 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39c45996] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 13:58:50.891 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 13:58:50.906 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 13:58:50.916 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 13:58:50.917 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-11 13:58:51.034 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 13:58:51.035 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2882 ms
+2022-03-11 13:58:51.215 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 13:58:51.685 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 13:58:51.835 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-11 13:58:51.836 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-11 13:58:51.993 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-11 13:58:52.192 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-11 13:58:52.905 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 13:58:53.138 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 13:59:15.306 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 13:59:15.311 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2022-03-11 13:59:15.321 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2022-03-11 13:59:15.322 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]
+2022-03-11 13:59:29.195 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 19268 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 13:59:29.195 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-11 13:59:31.069 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-11 13:59:31.118 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2022-03-11 13:59:31.570 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9ccdba8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-11 13:59:31.944 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 13:59:31.956 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 13:59:31.964 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 13:59:31.964 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-11 13:59:32.093 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 13:59:32.093 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2828 ms
+2022-03-11 13:59:32.327 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 13:59:32.805 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 13:59:32.925 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-11 13:59:32.926 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-11 13:59:33.091 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-11 13:59:33.298 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-11 13:59:34.074 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 13:59:34.295 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 13:59:34.431 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-11 13:59:34.455 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-11 13:59:34.745 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-11 13:59:34.772 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-11 13:59:35.047 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-11 13:59:35.759 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-11 13:59:36.008 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-11 13:59:36.214 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-11 13:59:36.234 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-11 13:59:36.340 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-11 13:59:36.406 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-11 13:59:36.429 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-11 13:59:36.462 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-11 13:59:36.714 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-11 13:59:36.784 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-11 13:59:36.802 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 8.184 seconds (JVM running for 10.025)
+2022-03-11 14:00:01.552 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementWMedicalSJob]] launched with the following parameters: [{time=1646978400355, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-11 14:00:02.865 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementWMedicalSStep]
+2022-03-11 14:00:03.372 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-11 14:00:04.423 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementWMedicalSJob]] completed with the following parameters: [{time=1646978400355, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-11 14:00:04.424 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4065
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04065  100%  incrementWMedicalSJob
+
+2022-03-11 14:00:05.418 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementPrescriptionJob]] launched with the following parameters: [{time=1646978404547, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-11 14:00:06.690 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementPrescriptionStep]
+2022-03-11 14:00:07.103 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementPrescriptionItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-11 14:00:07.847 [scheduling-1] [] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-11 14:00:07.847 [scheduling-1] [] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-11 14:00:08.134 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementPrescriptionJob]] completed with the following parameters: [{time=1646978404547, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-11 14:00:08.134 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3587
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03587  100%  incrementPrescriptionJob
+
+2022-03-11 14:31:18.070 [main] [] INFO c.a.b.n.c.u.NacosConfigPropertiesUtils [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+2022-03-11 14:31:18.072 [main] [] INFO c.a.b.n.c.a.NacosConfigApplicationContextInitializer [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+2022-03-11 14:31:18.090 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,55] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 8448 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 14:31:18.091 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,652] - The following profiles are active: dev
+2022-03-11 14:31:20.252 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 14:31:20.292 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,187] - Finished Spring Data repository scanning in 16ms. Found 0 JPA repository interfaces.
+2022-03-11 14:31:21.092 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,108] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 14:31:21.105 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 14:31:21.105 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 14:31:21.106 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-11 14:31:21.258 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 14:31:21.259 [main] [] INFO o.s.b.w.s.c.ServletWebServerApplicationContext [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3094 ms
+2022-03-11 14:31:21.754 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 14:31:22.269 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 14:31:22.587 [main] [] INFO org.hibernate.Version [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-11 14:31:22.894 [main] [] INFO o.h.annotations.common.Version [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-11 14:31:23.153 [main] [] INFO org.hibernate.dialect.Dialect [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-11 14:31:24.422 [main] [] INFO o.h.e.t.j.p.i.JtaPlatformInitiator [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 14:31:24.449 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,419] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 14:31:24.726 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 14:31:24.857 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-11 14:31:24.884 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-11 14:31:25.183 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-11 14:31:25.210 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-11 14:31:25.693 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-11 14:31:26.553 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-11 14:31:26.789 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,181] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-11 14:31:27.222 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,185] - No database type set, using meta data indicating: MYSQL
+2022-03-11 14:31:27.244 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,215] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-11 14:31:27.370 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,181] - Initializing ExecutorService 'taskScheduler'
+2022-03-11 14:31:27.422 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-11 14:31:27.451 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,220] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-11 14:31:27.452 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-11 14:31:27.470 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-11 14:31:27.510 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-11 14:31:27.751 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,61] - Started MainBootApplication in 10.643 seconds (JVM running for 12.417)
+2022-03-11 14:38:37.954 [main] [] INFO c.a.b.n.c.u.NacosConfigPropertiesUtils [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='124.222.60.243:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+2022-03-11 14:38:37.956 [main] [] INFO c.a.b.n.c.a.NacosConfigApplicationContextInitializer [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+2022-03-11 14:38:37.963 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,55] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 18444 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 14:38:37.964 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,652] - The following profiles are active: dev
+2022-03-11 14:38:39.281 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 14:38:39.317 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,187] - Finished Spring Data repository scanning in 18ms. Found 0 JPA repository interfaces.
+2022-03-11 14:38:40.395 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,108] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 14:38:40.405 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 14:38:40.406 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 14:38:40.406 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-11 14:38:40.544 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 14:38:40.546 [main] [] INFO o.s.b.w.s.c.ServletWebServerApplicationContext [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2532 ms
+2022-03-11 14:38:40.923 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 14:38:41.379 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 14:38:41.608 [main] [] INFO org.hibernate.Version [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-11 14:38:41.759 [main] [] INFO o.h.annotations.common.Version [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-11 14:38:41.990 [main] [] INFO org.hibernate.dialect.Dialect [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-11 14:38:42.636 [main] [] INFO o.h.e.t.j.p.i.JtaPlatformInitiator [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 14:38:42.649 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,419] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 14:38:42.889 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 14:39:04.952 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,601] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 14:39:04.969 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2022-03-11 14:39:04.985 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2022-03-11 14:39:04.985 [main] [] INFO c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor [destroy,354] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+2022-03-11 14:39:04.985 [main] [] INFO c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor [destroy,354] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+2022-03-11 14:39:04.987 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]
+2022-03-11 14:39:48.105 [main] [] INFO c.a.b.n.c.u.NacosConfigPropertiesUtils [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='124.222.60.243:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+2022-03-11 14:39:48.106 [main] [] INFO c.a.b.n.c.a.NacosConfigApplicationContextInitializer [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+2022-03-11 14:39:48.117 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,55] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 8984 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 14:39:48.117 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,652] - The following profiles are active: dev
+2022-03-11 14:39:49.787 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 14:39:49.817 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,187] - Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2022-03-11 14:39:50.610 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,108] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 14:39:50.618 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 14:39:50.619 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 14:39:50.619 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-11 14:39:50.751 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 14:39:50.751 [main] [] INFO o.s.b.w.s.c.ServletWebServerApplicationContext [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2574 ms
+2022-03-11 14:39:51.021 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 14:39:51.408 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 14:39:51.581 [main] [] INFO org.hibernate.Version [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-11 14:39:51.728 [main] [] INFO o.h.annotations.common.Version [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-11 14:39:52.064 [main] [] INFO org.hibernate.dialect.Dialect [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-11 14:39:53.503 [main] [] INFO o.h.e.t.j.p.i.JtaPlatformInitiator [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 14:39:53.520 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,419] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 14:39:53.917 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 14:40:15.970 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,601] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 14:40:15.979 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2022-03-11 14:40:15.994 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2022-03-11 14:40:15.995 [main] [] INFO c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor [destroy,354] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+2022-03-11 14:40:15.995 [main] [] INFO c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor [destroy,354] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+2022-03-11 14:40:15.997 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]
+2022-03-11 14:40:22.139 [main] [] INFO c.a.b.n.c.u.NacosConfigPropertiesUtils [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='124.222.60.243:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+2022-03-11 14:40:22.141 [main] [] INFO c.a.b.n.c.a.NacosConfigApplicationContextInitializer [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+2022-03-11 14:40:22.149 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,55] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 17672 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 14:40:22.153 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,652] - The following profiles are active: dev
+2022-03-11 14:40:23.337 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 14:40:23.369 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,187] - Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2022-03-11 14:40:24.124 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,108] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 14:40:24.134 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 14:40:24.135 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 14:40:24.135 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-11 14:40:24.397 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 14:40:24.397 [main] [] INFO o.s.b.w.s.c.ServletWebServerApplicationContext [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2181 ms
+2022-03-11 14:40:24.694 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 14:40:25.193 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 14:40:25.359 [main] [] INFO org.hibernate.Version [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-11 14:40:25.497 [main] [] INFO o.h.annotations.common.Version [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-11 14:40:25.647 [main] [] INFO org.hibernate.dialect.Dialect [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-11 14:40:26.353 [main] [] INFO o.h.e.t.j.p.i.JtaPlatformInitiator [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 14:40:26.367 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,419] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 14:40:26.627 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 14:40:26.755 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-11 14:40:26.780 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-11 14:40:27.056 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-11 14:40:27.093 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-11 14:40:27.442 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-11 14:40:28.331 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-11 14:40:28.570 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,181] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-11 14:40:28.982 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,185] - No database type set, using meta data indicating: MYSQL
+2022-03-11 14:40:29.000 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,215] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-11 14:40:29.120 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,181] - Initializing ExecutorService 'taskScheduler'
+2022-03-11 14:40:29.170 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-11 14:40:29.195 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,220] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-11 14:40:29.196 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-11 14:40:29.211 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-11 14:40:29.252 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-11 14:40:29.490 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,61] - Started MainBootApplication in 8.015 seconds (JVM running for 10.138)
+2022-03-11 15:07:26.399 [main] [] INFO c.a.b.n.c.u.NacosConfigPropertiesUtils [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='124.222.60.243:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+2022-03-11 15:07:26.402 [main] [] INFO c.a.b.n.c.a.NacosConfigApplicationContextInitializer [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+2022-03-11 15:07:26.412 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,55] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 18916 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 15:07:26.413 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,652] - The following profiles are active: dev
+2022-03-11 15:07:28.085 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 15:07:28.150 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,187] - Finished Spring Data repository scanning in 22ms. Found 0 JPA repository interfaces.
+2022-03-11 15:07:29.228 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,108] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 15:07:29.240 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 15:07:29.241 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 15:07:29.241 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-11 15:07:29.386 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 15:07:29.387 [main] [] INFO o.s.b.w.s.c.ServletWebServerApplicationContext [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2912 ms
+2022-03-11 15:07:29.746 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 15:07:52.167 [main] [] INFO org.hibernate.Version [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-11 15:07:52.368 [main] [] INFO o.h.annotations.common.Version [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-11 15:07:52.564 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 15:07:53.008 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 15:07:53.038 [main] [] INFO org.hibernate.dialect.Dialect [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-11 15:07:53.868 [main] [] INFO o.h.e.t.j.p.i.JtaPlatformInitiator [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 15:07:53.884 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,419] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 15:07:54.217 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 15:08:16.277 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,601] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 15:08:16.290 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2022-03-11 15:08:16.321 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2022-03-11 15:08:16.322 [main] [] INFO c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor [destroy,354] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+2022-03-11 15:08:16.322 [main] [] INFO c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor [destroy,354] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+2022-03-11 15:08:16.328 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]
+2022-03-11 15:16:50.672 [main] [] INFO c.a.b.n.c.u.NacosConfigPropertiesUtils [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='124.222.60.243:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+2022-03-11 15:16:50.694 [main] [] INFO c.a.b.n.c.a.NacosConfigApplicationContextInitializer [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+2022-03-11 15:16:50.708 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,55] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 20772 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-11 15:16:50.709 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,652] - The following profiles are active: dev
+2022-03-11 15:16:52.345 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 15:16:52.390 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,187] - Finished Spring Data repository scanning in 26ms. Found 0 JPA repository interfaces.
+2022-03-11 15:16:53.263 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,108] - Tomcat initialized with port(s): 8080 (http)
+2022-03-11 15:16:53.274 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-11 15:16:53.275 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-11 15:16:53.275 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-11 15:16:53.429 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-11 15:16:53.430 [main] [] INFO o.s.b.w.s.c.ServletWebServerApplicationContext [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2644 ms
+2022-03-11 15:16:53.772 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-11 15:16:54.196 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-11 15:16:54.404 [main] [] INFO org.hibernate.Version [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-03-11 15:16:54.568 [main] [] INFO o.h.annotations.common.Version [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-11 15:16:54.820 [main] [] INFO org.hibernate.dialect.Dialect [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-11 15:16:55.999 [main] [] INFO o.h.e.t.j.p.i.JtaPlatformInitiator [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 15:16:56.017 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,419] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 15:16:56.341 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-11 15:16:56.510 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-11 15:16:56.536 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-11 15:16:56.825 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-11 15:16:56.855 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-11 15:16:57.402 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-11 15:16:58.442 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-11 15:16:58.739 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,181] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-11 15:16:59.225 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,185] - No database type set, using meta data indicating: MYSQL
+2022-03-11 15:16:59.245 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,215] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-11 15:16:59.402 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,181] - Initializing ExecutorService 'taskScheduler'
+2022-03-11 15:16:59.490 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-11 15:16:59.557 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,220] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-11 15:16:59.559 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-11 15:16:59.590 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-11 15:16:59.651 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-11 15:17:00.050 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,61] - Started MainBootApplication in 10.369 seconds (JVM running for 12.768)

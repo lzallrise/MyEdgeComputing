@@ -1,0 +1,491 @@
+2022-03-07 10:31:39.090 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 15548 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-07 10:31:39.090 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-07 10:31:40.953 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-07 10:31:40.988 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2022-03-07 10:31:41.385 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1df798ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:31:41.772 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-07 10:31:41.785 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-07 10:31:41.792 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-07 10:31:41.792 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-07 10:31:41.966 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-07 10:31:41.966 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2792 ms
+2022-03-07 10:31:42.165 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-07 10:31:42.654 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-07 10:31:42.772 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-07 10:31:42.774 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-07 10:31:42.918 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-07 10:31:43.137 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-07 10:31:44.003 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-07 10:31:44.235 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-07 10:31:44.361 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-07 10:31:44.386 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-07 10:31:44.697 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-07 10:31:44.873 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-07 10:31:45.192 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-07 10:31:45.916 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-07 10:31:46.118 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 10:31:46.317 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-07 10:31:46.335 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-07 10:31:46.428 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-07 10:31:46.492 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-07 10:31:46.514 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-07 10:31:46.560 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-07 10:31:46.788 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-07 10:31:46.816 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-07 10:31:46.818 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 8.426 seconds (JVM running for 10.362)
+2022-03-07 10:32:21.179 [http-nio-8080-exec-2] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 10:32:21.179 [http-nio-8080-exec-2] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-07 10:32:21.189 [http-nio-8080-exec-2] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 9 ms
+2022-03-07 10:32:21.203 [http-nio-8080-exec-2] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 10:32:22.769 [http-nio-8080-exec-2] [dc29a7044a10420fbb5987c50a3b3f13] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementPrescriptionJob]] launched with the following parameters: [{time=1646620341800, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-07 10:32:24.172 [http-nio-8080-exec-2] [dc29a7044a10420fbb5987c50a3b3f13] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementPrescriptionStep]
+2022-03-07 10:32:24.772 [http-nio-8080-exec-2] [dc29a7044a10420fbb5987c50a3b3f13] INFO m.m.s.e.i.s.IncrementPrescriptionItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: 治疗胃病
+2022-03-07 10:32:25.699 [http-nio-8080-exec-2] [dc29a7044a10420fbb5987c50a3b3f13] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-07 10:32:25.699 [http-nio-8080-exec-2] [dc29a7044a10420fbb5987c50a3b3f13] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-07 10:32:25.994 [http-nio-8080-exec-2] [dc29a7044a10420fbb5987c50a3b3f13] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementPrescriptionJob]] completed with the following parameters: [{time=1646620341800, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-07 10:32:25.995 [http-nio-8080-exec-2] [dc29a7044a10420fbb5987c50a3b3f13] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4190
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04190  100%  incrementPrescriptionJob
+
+2022-03-07 10:53:00.450 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 16956 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-07 10:53:00.452 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-07 10:53:01.811 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-07 10:53:01.845 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2022-03-07 10:53:02.198 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4d0009a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:02.555 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-07 10:53:02.568 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-07 10:53:02.577 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-07 10:53:02.577 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-07 10:53:02.763 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-07 10:53:02.764 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2215 ms
+2022-03-07 10:53:02.987 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-07 10:53:03.479 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-07 10:53:03.636 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-07 10:53:03.639 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-07 10:53:03.893 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-07 10:53:04.230 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-07 10:53:05.102 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-07 10:53:05.316 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-07 10:53:05.497 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-07 10:53:05.522 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-07 10:53:05.818 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-07 10:53:05.847 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-07 10:53:06.170 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-07 10:53:06.804 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-07 10:53:07.006 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 10:53:07.221 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-07 10:53:07.238 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-07 10:53:07.368 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-07 10:53:07.426 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-07 10:53:07.445 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-07 10:53:07.489 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-07 10:53:07.749 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-07 10:53:07.782 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-07 10:53:07.786 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 8.066 seconds (JVM running for 10.431)
+2022-03-07 10:53:25.718 [http-nio-8080-exec-2] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 10:53:25.718 [http-nio-8080-exec-2] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-07 10:53:25.729 [http-nio-8080-exec-2] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 11 ms
+2022-03-07 10:53:25.745 [http-nio-8080-exec-2] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 10:53:27.345 [http-nio-8080-exec-2] [d1f000f966e64c5d96fda835ce6c0e5e] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReverse2Job]] launched with the following parameters: [{time=1646621606320, lastUpdateTime=2022-03-07 10:31:12}]
+2022-03-07 10:53:28.777 [http-nio-8080-exec-2] [d1f000f966e64c5d96fda835ce6c0e5e] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReverse2Step]
+2022-03-07 10:53:29.904 [http-nio-8080-exec-2] [d1f000f966e64c5d96fda835ce6c0e5e] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzFAILED
+2022-03-07 10:53:29.905 [http-nio-8080-exec-2] [d1f000f966e64c5d96fda835ce6c0e5e] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,76] - >>>>>>>>>>>>>>>>>同步状态异常：FAILED
+2022-03-07 10:53:29.906 [http-nio-8080-exec-2] [d1f000f966e64c5d96fda835ce6c0e5e] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzFAILED
+2022-03-07 10:53:30.207 [http-nio-8080-exec-2] [d1f000f966e64c5d96fda835ce6c0e5e] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReverse2Job]] completed with the following parameters: [{time=1646621606320, lastUpdateTime=2022-03-07 10:31:12}] and the following status: [FAILED]
+2022-03-07 10:53:30.207 [http-nio-8080-exec-2] [d1f000f966e64c5d96fda835ce6c0e5e] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:0,filterCount:0,commitCount:0,writeCount:0
+exitStatus: exitCode=FAILED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3882
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03882  100%  incrementReverse2Job
+
+2022-03-07 10:56:10.540 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 15068 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-07 10:56:10.540 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-07 10:56:12.140 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-07 10:56:12.173 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2022-03-07 10:56:12.538 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d26590f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:12.925 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-07 10:56:12.938 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-07 10:56:12.947 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-07 10:56:12.947 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-07 10:56:13.132 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-07 10:56:13.132 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2545 ms
+2022-03-07 10:56:13.322 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-07 10:56:13.809 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-07 10:56:13.950 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-07 10:56:13.951 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-07 10:56:14.093 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-07 10:56:14.289 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-07 10:56:15.206 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-07 10:56:15.489 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-07 10:56:15.642 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-07 10:56:15.668 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-07 10:56:15.952 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-07 10:56:15.986 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-07 10:56:16.282 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-07 10:56:17.044 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-07 10:56:17.245 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 10:56:17.463 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-07 10:56:17.483 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-07 10:56:17.578 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-07 10:56:17.633 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-07 10:56:17.652 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-07 10:56:17.691 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-07 10:56:17.924 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-07 10:56:17.952 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-07 10:56:17.955 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 7.964 seconds (JVM running for 10.164)
+2022-03-07 10:56:21.936 [http-nio-8080-exec-1] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 10:56:21.936 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-07 10:56:21.950 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 13 ms
+2022-03-07 10:56:21.970 [http-nio-8080-exec-1] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 10:56:23.507 [http-nio-8080-exec-1] [697c668040574427b23ec7a4f1f8f7c3] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] launched with the following parameters: [{time=1646621782558, lastUpdateTime=2022-03-07 10:31:12}]
+2022-03-07 10:56:24.881 [http-nio-8080-exec-1] [697c668040574427b23ec7a4f1f8f7c3] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReversePrescriptionStep]
+2022-03-07 10:56:25.925 [http-nio-8080-exec-1] [697c668040574427b23ec7a4f1f8f7c3] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzFAILED
+2022-03-07 10:56:25.926 [http-nio-8080-exec-1] [697c668040574427b23ec7a4f1f8f7c3] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,76] - >>>>>>>>>>>>>>>>>同步状态异常：FAILED
+2022-03-07 10:56:25.926 [http-nio-8080-exec-1] [697c668040574427b23ec7a4f1f8f7c3] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzFAILED
+2022-03-07 10:56:26.231 [http-nio-8080-exec-1] [697c668040574427b23ec7a4f1f8f7c3] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] completed with the following parameters: [{time=1646621782558, lastUpdateTime=2022-03-07 10:31:12}] and the following status: [FAILED]
+2022-03-07 10:56:26.233 [http-nio-8080-exec-1] [697c668040574427b23ec7a4f1f8f7c3] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:0,filterCount:0,commitCount:0,writeCount:0
+exitStatus: exitCode=FAILED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3671
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03671  100%  incrementReversePrescriptionJob
+
+2022-03-07 11:04:34.976 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 5276 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-07 11:04:34.978 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-07 11:04:36.343 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-07 11:04:36.375 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2022-03-07 11:04:36.721 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ae14b2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:04:37.133 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-07 11:04:37.146 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-07 11:04:37.154 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-07 11:04:37.154 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-07 11:04:37.338 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-07 11:04:37.339 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2306 ms
+2022-03-07 11:04:37.526 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-07 11:04:38.061 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-07 11:04:38.184 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-07 11:04:38.185 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-07 11:04:38.330 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-07 11:04:38.571 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-07 11:04:39.449 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-07 11:04:39.651 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-07 11:04:39.795 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-07 11:04:39.824 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-07 11:04:40.119 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-07 11:04:40.183 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-07 11:04:40.480 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-07 11:04:41.142 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-07 11:04:41.331 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 11:04:41.528 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-07 11:04:41.546 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-07 11:04:41.635 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-07 11:04:41.698 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-07 11:04:41.715 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-07 11:04:41.751 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-07 11:04:41.976 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-07 11:04:42.004 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-07 11:04:42.008 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 7.433 seconds (JVM running for 9.157)
+2022-03-07 11:04:45.878 [http-nio-8080-exec-1] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 11:04:45.878 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-07 11:04:45.889 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 11 ms
+2022-03-07 11:04:45.910 [http-nio-8080-exec-1] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 11:04:47.628 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] launched with the following parameters: [{time=1646622286597, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-07 11:04:49.033 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReversePrescriptionStep]
+2022-03-07 11:04:49.498 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO m.m.s.e.i.s.IncrementReversePrescriptionItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: 治疗胃病
+2022-03-07 11:04:49.498 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO m.m.s.e.i.s.IncrementReversePrescriptionItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-07 11:04:50.260 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzFAILED
+2022-03-07 11:04:50.260 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,76] - >>>>>>>>>>>>>>>>>同步状态异常：FAILED
+2022-03-07 11:04:50.260 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzFAILED
+2022-03-07 11:04:50.538 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] completed with the following parameters: [{time=1646622286597, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [FAILED]
+2022-03-07 11:04:50.540 [http-nio-8080-exec-1] [af39bc1facef47eb9ccb086035f6eb55] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:0,filterCount:0,commitCount:0,writeCount:0
+exitStatus: exitCode=FAILED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3938
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03938  100%  incrementReversePrescriptionJob
+
+2022-03-07 11:10:22.688 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 19128 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-07 11:10:22.690 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-07 11:10:24.020 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-07 11:10:24.050 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2022-03-07 11:10:24.394 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be394c68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:24.796 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-07 11:10:24.813 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-07 11:10:24.822 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-07 11:10:24.823 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-07 11:10:25.012 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-07 11:10:25.013 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2279 ms
+2022-03-07 11:10:25.200 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-07 11:10:25.704 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-07 11:10:25.838 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-07 11:10:25.839 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-07 11:10:25.978 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-07 11:10:26.169 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-07 11:10:27.017 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-07 11:10:27.218 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-07 11:10:27.365 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-07 11:10:27.390 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-07 11:10:27.717 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-07 11:10:27.749 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-07 11:10:28.093 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-07 11:10:28.777 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-07 11:10:28.966 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 11:10:29.182 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-07 11:10:29.202 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-07 11:10:29.295 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-07 11:10:29.353 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-07 11:10:29.374 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-07 11:10:29.410 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-07 11:10:29.606 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-07 11:10:29.634 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-07 11:10:29.637 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 7.429 seconds (JVM running for 9.229)
+2022-03-07 11:10:35.098 [http-nio-8080-exec-1] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 11:10:35.098 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-07 11:10:35.112 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 14 ms
+2022-03-07 11:10:35.130 [http-nio-8080-exec-1] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 11:10:36.727 [http-nio-8080-exec-1] [6eecfd5f13d04e34b470991d06580c35] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] launched with the following parameters: [{time=1646622635774, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-07 11:10:38.252 [http-nio-8080-exec-1] [6eecfd5f13d04e34b470991d06580c35] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReversePrescriptionStep]
+2022-03-07 11:10:38.758 [http-nio-8080-exec-1] [6eecfd5f13d04e34b470991d06580c35] INFO m.m.s.e.i.s.IncrementReversePrescriptionItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: 治疗胃病
+2022-03-07 11:10:38.759 [http-nio-8080-exec-1] [6eecfd5f13d04e34b470991d06580c35] INFO m.m.s.e.i.s.IncrementReversePrescriptionItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-07 11:10:39.711 [http-nio-8080-exec-1] [6eecfd5f13d04e34b470991d06580c35] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-07 11:10:39.711 [http-nio-8080-exec-1] [6eecfd5f13d04e34b470991d06580c35] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-07 11:10:40.009 [http-nio-8080-exec-1] [6eecfd5f13d04e34b470991d06580c35] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] completed with the following parameters: [{time=1646622635774, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-07 11:10:40.010 [http-nio-8080-exec-1] [6eecfd5f13d04e34b470991d06580c35] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:2
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4233
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04233  100%  incrementReversePrescriptionJob
+
+2022-03-07 12:18:48.673 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 6100 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-07 12:18:48.673 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-07 12:18:50.256 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-07 12:18:50.288 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2022-03-07 12:18:50.677 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c011f61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:18:51.194 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-07 12:18:51.213 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-07 12:18:51.226 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-07 12:18:51.227 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-07 12:18:51.472 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-07 12:18:51.472 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2726 ms
+2022-03-07 12:18:51.668 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-07 12:18:52.231 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-07 12:18:52.364 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-07 12:18:52.365 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-07 12:18:52.525 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-07 12:18:52.758 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-07 12:18:53.656 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-07 12:18:53.915 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-07 12:18:54.076 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-07 12:18:54.114 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-07 12:18:54.486 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-07 12:18:54.524 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-07 12:18:54.880 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-07 12:18:55.951 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-07 12:18:56.174 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:18:56.399 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-07 12:18:56.418 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-07 12:18:56.525 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:18:56.587 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-07 12:18:56.603 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-07 12:18:56.632 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-07 12:18:56.817 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-07 12:18:56.843 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-07 12:18:56.846 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 8.744 seconds (JVM running for 10.662)
+2022-03-07 12:19:07.076 [http-nio-8080-exec-2] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 12:19:07.076 [http-nio-8080-exec-2] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-07 12:19:07.086 [http-nio-8080-exec-2] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 10 ms
+2022-03-07 12:19:07.104 [http-nio-8080-exec-2] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:19:08.885 [http-nio-8080-exec-2] [99871ea5ec034e638b0009701f271830] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementWMedicalSJob]] launched with the following parameters: [{time=1646626747721, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-07 12:19:10.237 [http-nio-8080-exec-2] [99871ea5ec034e638b0009701f271830] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementWMedicalSStep]
+2022-03-07 12:19:10.737 [http-nio-8080-exec-2] [99871ea5ec034e638b0009701f271830] INFO m.m.s.e.i.s.IncrementWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-07 12:19:11.890 [http-nio-8080-exec-2] [99871ea5ec034e638b0009701f271830] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementWMedicalSJob]] completed with the following parameters: [{time=1646626747721, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-07 12:19:11.891 [http-nio-8080-exec-2] [99871ea5ec034e638b0009701f271830] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3973
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03973  100%  incrementWMedicalSJob
+
+2022-03-07 12:19:20.218 [http-nio-8080-exec-3] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:19:21.185 [http-nio-8080-exec-3] [fba3cd5a1f044936a77d079cf3627c8d] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReverseWMedicalSJob]] launched with the following parameters: [{time=1646626760276, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-07 12:19:22.679 [http-nio-8080-exec-3] [fba3cd5a1f044936a77d079cf3627c8d] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReverseWMedicalSStep]
+2022-03-07 12:19:23.295 [http-nio-8080-exec-3] [fba3cd5a1f044936a77d079cf3627c8d] INFO m.m.s.e.i.s.IncrementReverseWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-07 12:19:24.489 [http-nio-8080-exec-3] [fba3cd5a1f044936a77d079cf3627c8d] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReverseWMedicalSJob]] completed with the following parameters: [{time=1646626760276, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-07 12:19:24.489 [http-nio-8080-exec-3] [fba3cd5a1f044936a77d079cf3627c8d] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4212
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04212  100%  incrementReverseWMedicalSJob
+
+2022-03-07 12:19:32.235 [http-nio-8080-exec-4] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:19:33.250 [http-nio-8080-exec-4] [4dbdf8dac1b74e94807849532581b3ac] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementPrescriptionJob]] launched with the following parameters: [{time=1646626772352, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-07 12:19:34.616 [http-nio-8080-exec-4] [4dbdf8dac1b74e94807849532581b3ac] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementPrescriptionStep]
+2022-03-07 12:19:35.050 [http-nio-8080-exec-4] [4dbdf8dac1b74e94807849532581b3ac] INFO m.m.s.e.i.s.IncrementPrescriptionItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-07 12:19:35.946 [http-nio-8080-exec-4] [4dbdf8dac1b74e94807849532581b3ac] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-07 12:19:35.947 [http-nio-8080-exec-4] [4dbdf8dac1b74e94807849532581b3ac] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-07 12:19:36.245 [http-nio-8080-exec-4] [4dbdf8dac1b74e94807849532581b3ac] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementPrescriptionJob]] completed with the following parameters: [{time=1646626772352, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-07 12:19:36.245 [http-nio-8080-exec-4] [4dbdf8dac1b74e94807849532581b3ac] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3893
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03893  100%  incrementPrescriptionJob
+
+2022-03-07 12:19:41.869 [http-nio-8080-exec-5] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:19:42.839 [http-nio-8080-exec-5] [90577ec094d94f8cbde245dd9135e64b] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] launched with the following parameters: [{time=1646626781926, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-07 12:19:44.167 [http-nio-8080-exec-5] [90577ec094d94f8cbde245dd9135e64b] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReversePrescriptionStep]
+2022-03-07 12:19:44.584 [http-nio-8080-exec-5] [90577ec094d94f8cbde245dd9135e64b] INFO m.m.s.e.i.s.IncrementReversePrescriptionItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-07 12:19:45.503 [http-nio-8080-exec-5] [90577ec094d94f8cbde245dd9135e64b] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-07 12:19:45.503 [http-nio-8080-exec-5] [90577ec094d94f8cbde245dd9135e64b] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-07 12:19:45.781 [http-nio-8080-exec-5] [90577ec094d94f8cbde245dd9135e64b] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] completed with the following parameters: [{time=1646626781926, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-07 12:19:45.781 [http-nio-8080-exec-5] [90577ec094d94f8cbde245dd9135e64b] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3855
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03855  100%  incrementReversePrescriptionJob
+
+2022-03-07 12:19:51.340 [http-nio-8080-exec-6] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:19:52.343 [http-nio-8080-exec-6] [7a032fdc0fef4409b9570aa7eb2fe897] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementWMedicalSJob]] launched with the following parameters: [{time=1646626791399, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-07 12:19:53.667 [http-nio-8080-exec-6] [7a032fdc0fef4409b9570aa7eb2fe897] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementWMedicalSStep]
+2022-03-07 12:19:54.089 [http-nio-8080-exec-6] [7a032fdc0fef4409b9570aa7eb2fe897] INFO m.m.s.e.i.s.IncrementWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-07 12:19:55.178 [http-nio-8080-exec-6] [7a032fdc0fef4409b9570aa7eb2fe897] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementWMedicalSJob]] completed with the following parameters: [{time=1646626791399, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-07 12:19:55.179 [http-nio-8080-exec-6] [7a032fdc0fef4409b9570aa7eb2fe897] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3780
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03780  100%  incrementWMedicalSJob
+
+2022-03-07 12:20:05.548 [http-nio-8080-exec-7] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:20:06.472 [http-nio-8080-exec-7] [5fc59537e1f147388c26144a551a25fc] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementPrescriptionJob]] launched with the following parameters: [{time=1646626805602, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-07 12:20:07.911 [http-nio-8080-exec-7] [5fc59537e1f147388c26144a551a25fc] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementPrescriptionStep]
+2022-03-07 12:20:08.348 [http-nio-8080-exec-7] [5fc59537e1f147388c26144a551a25fc] INFO m.m.s.e.i.s.IncrementPrescriptionItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-07 12:20:09.208 [http-nio-8080-exec-7] [5fc59537e1f147388c26144a551a25fc] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-07 12:20:09.208 [http-nio-8080-exec-7] [5fc59537e1f147388c26144a551a25fc] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-07 12:20:09.497 [http-nio-8080-exec-7] [5fc59537e1f147388c26144a551a25fc] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementPrescriptionJob]] completed with the following parameters: [{time=1646626805602, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-07 12:20:09.497 [http-nio-8080-exec-7] [5fc59537e1f147388c26144a551a25fc] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3895
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03895  100%  incrementPrescriptionJob
+
+2022-03-07 12:22:20.706 [http-nio-8080-exec-10] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:22:21.652 [http-nio-8080-exec-10] [9c05d02e5c9546d38d5780c7422fe945] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementWMedicalSJob]] launched with the following parameters: [{time=1646626940765, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-07 12:22:23.090 [http-nio-8080-exec-10] [9c05d02e5c9546d38d5780c7422fe945] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementWMedicalSStep]
+2022-03-07 12:22:23.510 [http-nio-8080-exec-10] [9c05d02e5c9546d38d5780c7422fe945] INFO m.m.s.e.i.s.IncrementWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-07 12:22:25.421 [http-nio-8080-exec-10] [9c05d02e5c9546d38d5780c7422fe945] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementWMedicalSJob]] completed with the following parameters: [{time=1646626940765, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-07 12:22:25.421 [http-nio-8080-exec-10] [9c05d02e5c9546d38d5780c7422fe945] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4656
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04656  100%  incrementWMedicalSJob
+
+2022-03-07 12:22:31.215 [http-nio-8080-exec-1] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:22:32.257 [http-nio-8080-exec-1] [f586c92db28849a0bff40f93cc33eb51] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReverseWMedicalSJob]] launched with the following parameters: [{time=1646626951270, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-07 12:22:33.607 [http-nio-8080-exec-1] [f586c92db28849a0bff40f93cc33eb51] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReverseWMedicalSStep]
+2022-03-07 12:22:33.991 [http-nio-8080-exec-1] [f586c92db28849a0bff40f93cc33eb51] INFO m.m.s.e.i.s.IncrementReverseWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-07 12:22:35.197 [http-nio-8080-exec-1] [f586c92db28849a0bff40f93cc33eb51] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReverseWMedicalSJob]] completed with the following parameters: [{time=1646626951270, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-07 12:22:35.197 [http-nio-8080-exec-1] [f586c92db28849a0bff40f93cc33eb51] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3927
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03927  100%  incrementReverseWMedicalSJob
+
+2022-03-07 12:22:41.845 [http-nio-8080-exec-2] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:22:42.897 [http-nio-8080-exec-2] [513d2b5bee0d44518320f31225255ec3] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementPrescriptionJob]] launched with the following parameters: [{time=1646626962002, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-07 12:22:44.210 [http-nio-8080-exec-2] [513d2b5bee0d44518320f31225255ec3] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementPrescriptionStep]
+2022-03-07 12:22:44.642 [http-nio-8080-exec-2] [513d2b5bee0d44518320f31225255ec3] INFO m.m.s.e.i.s.IncrementPrescriptionItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-07 12:22:45.481 [http-nio-8080-exec-2] [513d2b5bee0d44518320f31225255ec3] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-07 12:22:45.481 [http-nio-8080-exec-2] [513d2b5bee0d44518320f31225255ec3] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-07 12:22:45.780 [http-nio-8080-exec-2] [513d2b5bee0d44518320f31225255ec3] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementPrescriptionJob]] completed with the following parameters: [{time=1646626962002, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-07 12:22:45.780 [http-nio-8080-exec-2] [513d2b5bee0d44518320f31225255ec3] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3778
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03778  100%  incrementPrescriptionJob
+
+2022-03-07 12:22:50.723 [http-nio-8080-exec-3] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:22:51.714 [http-nio-8080-exec-3] [0f67a20a9221490b98fde309393249db] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] launched with the following parameters: [{time=1646626970782, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-07 12:22:53.074 [http-nio-8080-exec-3] [0f67a20a9221490b98fde309393249db] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReversePrescriptionStep]
+2022-03-07 12:22:53.454 [http-nio-8080-exec-3] [0f67a20a9221490b98fde309393249db] INFO m.m.s.e.i.s.IncrementReversePrescriptionItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-07 12:22:54.325 [http-nio-8080-exec-3] [0f67a20a9221490b98fde309393249db] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-07 12:22:54.326 [http-nio-8080-exec-3] [0f67a20a9221490b98fde309393249db] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-07 12:22:54.634 [http-nio-8080-exec-3] [0f67a20a9221490b98fde309393249db] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReversePrescriptionJob]] completed with the following parameters: [{time=1646626970782, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-07 12:22:54.634 [http-nio-8080-exec-3] [0f67a20a9221490b98fde309393249db] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3852
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03852  100%  incrementReversePrescriptionJob
+
+2022-03-07 12:22:59.734 [http-nio-8080-exec-4] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:23:00.699 [http-nio-8080-exec-4] [427f25f3de2a40ff86fcc4bb2a500a57] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementWMedicalSJob]] launched with the following parameters: [{time=1646626979792, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-07 12:23:02.280 [http-nio-8080-exec-4] [427f25f3de2a40ff86fcc4bb2a500a57] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementWMedicalSStep]
+2022-03-07 12:23:02.731 [http-nio-8080-exec-4] [427f25f3de2a40ff86fcc4bb2a500a57] INFO m.m.s.e.i.s.IncrementWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-07 12:23:03.859 [http-nio-8080-exec-4] [427f25f3de2a40ff86fcc4bb2a500a57] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementWMedicalSJob]] completed with the following parameters: [{time=1646626979792, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-07 12:23:03.860 [http-nio-8080-exec-4] [427f25f3de2a40ff86fcc4bb2a500a57] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4068
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04068  100%  incrementWMedicalSJob
+
+2022-03-07 12:23:07.834 [http-nio-8080-exec-5] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-07 12:23:08.829 [http-nio-8080-exec-5] [fab516d885b24fc8aa2ba28910f6e6a0] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementPrescriptionJob]] launched with the following parameters: [{time=1646626987904, lastUpdateTime=2022-03-07 10:52:44}]
+2022-03-07 12:23:10.168 [http-nio-8080-exec-5] [fab516d885b24fc8aa2ba28910f6e6a0] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementPrescriptionStep]
+2022-03-07 12:23:10.579 [http-nio-8080-exec-5] [fab516d885b24fc8aa2ba28910f6e6a0] INFO m.m.s.e.i.s.IncrementPrescriptionItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 治疗感冒
+2022-03-07 12:23:11.405 [http-nio-8080-exec-5] [fab516d885b24fc8aa2ba28910f6e6a0] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,72] - lzCOMPLETED
+2022-03-07 12:23:11.406 [http-nio-8080-exec-5] [fab516d885b24fc8aa2ba28910f6e6a0] INFO m.m.s.service.CdcTempService [updateCdcTemp2AfterJob,80] - lzCOMPLETED
+2022-03-07 12:23:11.703 [http-nio-8080-exec-5] [fab516d885b24fc8aa2ba28910f6e6a0] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementPrescriptionJob]] completed with the following parameters: [{time=1646626987904, lastUpdateTime=2022-03-07 10:52:44}] and the following status: [COMPLETED]
+2022-03-07 12:23:11.703 [http-nio-8080-exec-5] [fab516d885b24fc8aa2ba28910f6e6a0] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3799
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03799  100%  incrementPrescriptionJob
+

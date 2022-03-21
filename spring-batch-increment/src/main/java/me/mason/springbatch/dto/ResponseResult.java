@@ -20,20 +20,20 @@ public class ResponseResult<T> {
 	@ApiModelProperty(value="返回状态")
 	private boolean success;
 	@ApiModelProperty(value="错误信息代码")
-	private String errCode;
+	private String code;
 	@ApiModelProperty(value="错误显示信息")
-	private String errShowMsg;
+	private String message;
 	@ApiModelProperty(value="错误信息")
 	private String errMsg;
 	@ApiModelProperty(value = "返回数据",notes = "若返回错误信息，此数据为null或错误信息对象")
-	private T resultData;
+	private T data;
 
 	public static ResponseResult of(boolean success,Object resultData,String errCode,String errShowMsg, String errMsg) {
 		return new ResponseResult(success,errCode, errShowMsg,errMsg,resultData);
 	}
 
 	public static ResponseResult ok(Object resultData) {
-		return of(true,resultData,null,null,null);
+		return of(true,resultData,"200","操作成功",null);
 	}
 
 	public static ResponseResult err(String errCode,String errShowMsg,String errMsg) {

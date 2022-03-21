@@ -4,7 +4,11 @@ getOriginUser
 
 select * from test_user
 
+getDataFlow
+===
+* 查询user数据
 
+select * from data_flow
 
 insertUser
 ===
@@ -67,7 +71,7 @@ sys_create_user = VALUES(sys_create_user),
 sys_update_time = VALUES(sys_update_time),
 sys_update_user = VALUES(sys_update_user)
 
-ins0/ertTargetIncreUser
+insertTargetIncreUser
 ===
 * 插入数据
 
@@ -97,3 +101,17 @@ sys_create_time = VALUES(sys_create_time),
 sys_create_user = VALUES(sys_create_user),
 sys_update_time = VALUES(sys_update_time),
 sys_update_user = VALUES(sys_update_user)
+
+insertDataFlow
+===
+* 插入数据
+
+insert into data_flow(id,executionTime,fromData,toData,status)
+values (#id#,#executionTime#,#fromData#,#toData#,#status#)
+ON DUPLICATE KEY UPDATE
+id = VALUES(id),
+executionTime = VALUES(executionTime),
+fromData = VALUES(fromData),
+toData = VALUES(toData),
+status = VALUES(status)
+

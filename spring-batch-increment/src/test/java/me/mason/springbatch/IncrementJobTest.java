@@ -2,8 +2,7 @@ package me.mason.springbatch;
 
 import lombok.extern.slf4j.Slf4j;
 import me.mason.springbatch.common.SyncConstants;
-import me.mason.springbatch.example.increment.config.IncrementBatchConfig;
-import me.mason.springbatch.service.IncrementService;
+import me.mason.springbatch.service.IncrementReserveService;
 import me.mason.springbatch.service.batch.JobLauncherService;
 import org.junit.Assert;
 import org.junit.Test;
@@ -28,7 +27,6 @@ import java.util.Map;
  **/
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = {MainBootApplication.class,IncrementBatchConfig.class})
 @Slf4j
 public class IncrementJobTest {
 
@@ -36,15 +34,7 @@ public class IncrementJobTest {
     private JobLauncherService jobLauncherService;
 
     @Autowired
-    private IncrementService incrementService;
+    private IncrementReserveService incrementReserveService;
 
-    @Autowired
-    private Job incrementJob;
 
-    @Test
-    public void testIncrementJob() throws JobParametersInvalidException, JobExecutionAlreadyRunningException, JobRestartException, JobInstanceAlreadyCompleteException {
-        JobParameters jobParameters = incrementService.initJobParam();
-        Map<String, Object> stringObjectMap = jobLauncherService.startJob(incrementJob, jobParameters);
-        Assert.assertEquals(ExitStatus.COMPLETED,stringObjectMap.get(SyncConstants.STR_RETURN_EXITSTATUS));
-    }
 }

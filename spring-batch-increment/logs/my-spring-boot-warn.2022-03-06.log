@@ -1,0 +1,529 @@
+2022-03-06 13:01:55.671 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 13:01:55.717 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 13:01:55.731 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 13:01:56.063 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 13:01:56.336 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 13:01:56.850 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 14:51:31.458 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 14:51:31.493 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementController': Unsatisfied dependency expressed through field 'incrementWMedicalSJob'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.batch.core.Job' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=incrementWMedicalSJob)}
+2022-03-06 14:56:01.597 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'scopedTarget.incrementItemReader' defined in class path resource [me/mason/springbatch/example/increment/config/IncrementWMedicalSBatchConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=step; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=incrementWMedicalSBatchConfig; factoryMethodName=incrementItemReader; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [me/mason/springbatch/example/increment/config/IncrementWMedicalSBatchConfig.class]] for bean 'scopedTarget.incrementItemReader': There is already [Root bean: class [null]; scope=step; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=incrementBatchConfig; factoryMethodName=incrementItemReader; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [me/mason/springbatch/example/increment/config/IncrementBatchConfig.class]] bound.
+2022-03-06 14:58:30.226 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'incrementWriter' defined in class path resource [me/mason/springbatch/example/increment/config/IncrementWMedicalSBatchConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=incrementWMedicalSBatchConfig; factoryMethodName=incrementWriter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [me/mason/springbatch/example/increment/config/IncrementWMedicalSBatchConfig.class]] for bean 'incrementWriter': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=incrementBatchConfig; factoryMethodName=incrementWriter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [me/mason/springbatch/example/increment/config/IncrementBatchConfig.class]] bound.
+2022-03-06 15:04:07.421 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementController': Unsatisfied dependency expressed through field 'incrementService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementService': Unsatisfied dependency expressed through field 'targetUserRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetUserRepository' defined in file [F:\MyEdgeComputing\spring-batch-increment\target\classes\me\mason\springbatch\dao\target\TargetUserRepository.class]: Cannot resolve reference to bean 'targetDatasourceSqlManagerFactoryBean' while setting bean property 'sqlManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetDatasourceSqlManagerFactoryBean': FactoryBean threw exception on object creation; nested exception is org.beetl.sql.core.BeetlSQLException: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2022-03-06 15:04:20.613 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:04:20.670 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:04:20.683 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:04:20.698 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:04:21.035 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:04:21.358 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:04:22.043 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:08:06.783 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:08:06.835 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:08:06.848 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:08:06.860 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:08:07.225 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:08:07.526 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:08:08.073 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:10:15.186 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:10:15.267 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:10:15.289 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:10:15.318 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:10:15.683 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:10:16.032 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:10:16.636 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:12:56.567 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:12:56.707 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:12:56.750 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:12:56.778 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:12:57.131 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:12:57.469 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:12:58.101 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:14:53.891 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:14:53.944 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:14:53.957 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:14:53.971 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:14:54.361 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:14:54.645 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:14:55.157 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:16:11.320 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:16:11.367 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:16:11.380 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:16:11.393 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:16:11.748 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:16:12.054 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:16:12.688 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:23:48.762 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:23:48.819 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:23:48.832 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:23:48.845 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:23:49.174 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:23:49.506 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:23:50.140 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:26:20.094 [HikariPool-4 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=2m30s823ms175µs100ns).
+2022-03-06 15:26:20.096 [HikariPool-3 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=2m31s293ms394µs500ns).
+2022-03-06 15:26:20.098 [HikariPool-2 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m31s651ms261µs600ns).
+2022-03-06 15:26:20.101 [HikariPool-1 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s357ms288µs900ns).
+2022-03-06 15:26:45.500 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:26:45.766 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:26:45.787 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:26:45.816 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:26:46.167 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:26:46.605 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:26:47.466 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:28:38.333 [HikariPool-2 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m53s293ms3µs100ns).
+2022-03-06 15:28:38.333 [HikariPool-1 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m55s552ms458µs400ns).
+2022-03-06 15:28:38.337 [HikariPool-3 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1m52s925ms873µs300ns).
+2022-03-06 15:28:38.341 [HikariPool-4 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m52s76ms29µs800ns).
+2022-03-06 15:30:20.743 [HikariPool-4 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m42s402ms94µs600ns).
+2022-03-06 15:30:20.744 [HikariPool-3 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1m42s406ms942µs700ns).
+2022-03-06 15:30:20.745 [HikariPool-2 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m42s411ms347µs500ns).
+2022-03-06 15:30:20.745 [HikariPool-1 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s411ms967µs800ns).
+2022-03-06 15:30:21.240 [http-nio-8080-exec-1] [7e4270fb9ddf481f82ebb0cc35862f32] WARN c.zaxxer.hikari.pool.ProxyConnection [checkException,153] - HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@5b733ef7 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 38 milliseconds ago.  The last packet sent successfully to the server was 76 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.commit(ConnectionImpl.java:813)
+	at com.zaxxer.hikari.pool.ProxyConnection.commit(ProxyConnection.java:361)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.commit(HikariProxyConnection.java)
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.commit(AbstractLogicalConnectionImplementor.java:81)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:272)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:746)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy114.update(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy114.update(Unknown Source)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:263)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148)
+	at org.springframework.batch.core.job.flow.JobFlowExecutor.executeStep(JobFlowExecutor.java:68)
+	at org.springframework.batch.core.job.flow.support.state.StepState.handle(StepState.java:67)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:169)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:144)
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:313)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:144)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy99.run(Unknown Source)
+	at me.mason.springbatch.service.batch.JobLauncherService.startJob(JobLauncherService.java:53)
+	at me.mason.springbatch.controller.IncrementController.runJobMedical(IncrementController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 38 milliseconds ago.  The last packet sent successfully to the server was 76 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:562)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:732)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:671)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:986)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:921)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1154)
+	at com.mysql.cj.jdbc.ConnectionImpl.commit(ConnectionImpl.java:801)
+	... 103 common frames omitted
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:556)
+	... 109 common frames omitted
+2022-03-06 15:38:09.751 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:38:09.798 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:38:09.810 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:38:09.822 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:38:10.162 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:38:10.485 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:38:11.037 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:52:59.671 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementController': Unsatisfied dependency expressed through field 'incrementService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementService': Unsatisfied dependency expressed through field 'targetUserRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetUserRepository' defined in file [F:\MyEdgeComputing\spring-batch-increment\target\classes\me\mason\springbatch\dao\target\TargetUserRepository.class]: Cannot resolve reference to bean 'targetDatasourceSqlManagerFactoryBean' while setting bean property 'sqlManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetDatasourceSqlManagerFactoryBean': FactoryBean threw exception on object creation; nested exception is org.beetl.sql.core.BeetlSQLException: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2022-03-06 15:53:14.900 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:53:14.941 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:53:14.952 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:53:14.963 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:53:15.309 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:53:15.586 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:53:16.132 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 15:54:11.206 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:54:11.263 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:54:11.276 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:54:11.290 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:54:11.647 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 15:54:11.976 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 15:54:12.598 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 16:01:21.718 [HikariPool-1 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m13s320ms123µs200ns).
+2022-03-06 16:01:21.720 [HikariPool-2 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=7m10s985ms918µs700ns).
+2022-03-06 16:01:21.722 [HikariPool-3 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=7m10s525ms220µs100ns).
+2022-03-06 16:01:21.724 [HikariPool-4 housekeeper] [] WARN com.zaxxer.hikari.pool.HikariPool [run,766] - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=7m9s971ms40µs800ns).
+2022-03-06 16:01:21.858 [http-nio-8080-exec-1] [5cc0e59a6ba340cbb5e4010dbb2c1404] WARN com.zaxxer.hikari.pool.PoolBase [isConnectionAlive,176] - HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f01fb5c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-06 16:01:21.860 [http-nio-8080-exec-1] [5cc0e59a6ba340cbb5e4010dbb2c1404] WARN com.zaxxer.hikari.pool.PoolBase [isConnectionAlive,176] - HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7052f521 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-06 16:01:21.862 [http-nio-8080-exec-1] [5cc0e59a6ba340cbb5e4010dbb2c1404] WARN com.zaxxer.hikari.pool.PoolBase [isConnectionAlive,176] - HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42f677d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-06 16:01:21.863 [http-nio-8080-exec-1] [5cc0e59a6ba340cbb5e4010dbb2c1404] WARN com.zaxxer.hikari.pool.PoolBase [isConnectionAlive,176] - HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7f9ef620 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-03-06 16:01:24.974 [http-nio-8080-exec-1] [5cc0e59a6ba340cbb5e4010dbb2c1404] WARN c.zaxxer.hikari.pool.ProxyConnection [checkException,153] - HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@1ef31f71 marked as broken because of SQLSTATE(08003), ErrorCode(0)
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.rollback(ConnectionImpl.java:1875)
+	at com.zaxxer.hikari.pool.ProxyConnection.rollback(ProxyConnection.java:370)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.rollback(HikariProxyConnection.java)
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.rollback(AbstractLogicalConnectionImplementor.java:116)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.rollback(JdbcResourceLocalTransactionCoordinatorImpl.java:294)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.rollback(TransactionImpl.java:145)
+	at org.springframework.orm.jpa.JpaTransactionManager.doRollback(JpaTransactionManager.java:559)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:838)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:812)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy119.rollback(Unknown Source)
+	at org.springframework.transaction.support.TransactionTemplate.rollbackOnException(TransactionTemplate.java:168)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:144)
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273)
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82)
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:203)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148)
+	at org.springframework.batch.core.job.flow.JobFlowExecutor.executeStep(JobFlowExecutor.java:68)
+	at org.springframework.batch.core.job.flow.support.state.StepState.handle(StepState.java:67)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:169)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:144)
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:313)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:144)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy99.run(Unknown Source)
+	at me.mason.springbatch.service.batch.JobLauncherService.startJob(JobLauncherService.java:53)
+	at me.mason.springbatch.controller.IncrementController.runJobMedical(IncrementController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:1263)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:575)
+	at com.mysql.cj.jdbc.ConnectionImpl.rollback(ConnectionImpl.java:1829)
+	... 105 common frames omitted
+2022-03-06 16:01:25.485 [http-nio-8080-exec-1] [5cc0e59a6ba340cbb5e4010dbb2c1404] WARN o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [doResolveHandlerMethodException,419] - Failure in @ExceptionHandler public me.mason.springbatch.dto.ResponseResult me.mason.springbatch.exception.ControllerExceptionHandleAdvice.handleException(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.Exception)
+java.lang.NullPointerException: null
+	at org.apache.coyote.http11.Http11OutputBuffer.commit(Http11OutputBuffer.java:306)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:985)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:369)
+	at org.apache.coyote.Response.action(Response.java:211)
+	at org.apache.coyote.Response.sendHeaders(Response.java:437)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:281)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:262)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:408)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-06 16:02:33.736 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:02:33.777 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:02:33.791 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:02:33.801 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:02:55.884 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementController': Unsatisfied dependency expressed through field 'incrementReverse2Job'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementReverse2Job' defined in class path resource [me/mason/springbatch/example/incrementReverse/config/IncrementReverse2BatchConfig.class]: Unsatisfied dependency expressed through method 'incrementReverse2Job' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementReverse2Step' defined in class path resource [me/mason/springbatch/example/incrementReverse/config/IncrementReverse2BatchConfig.class]: Unsatisfied dependency expressed through method 'incrementReverse2Step' parameter 2; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementReverse2Writer': Unsatisfied dependency expressed through field 'edgeUserRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'edgeUserRepository' defined in file [F:\MyEdgeComputing\spring-batch-increment\target\classes\me\mason\springbatch\dao\edge\EdgeUserRepository.class]: Cannot resolve reference to bean 'edgeDatasourceSqlManagerFactoryBean' while setting bean property 'sqlManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'edgeDatasourceSqlManagerFactoryBean': FactoryBean threw exception on object creation; nested exception is org.beetl.sql.core.BeetlSQLException: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2022-03-06 16:04:30.088 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementController': Unsatisfied dependency expressed through field 'incrementService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementService': Unsatisfied dependency expressed through field 'targetUserRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetUserRepository' defined in file [F:\MyEdgeComputing\spring-batch-increment\target\classes\me\mason\springbatch\dao\target\TargetUserRepository.class]: Cannot resolve reference to bean 'targetDatasourceSqlManagerFactoryBean' while setting bean property 'sqlManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetDatasourceSqlManagerFactoryBean': FactoryBean threw exception on object creation; nested exception is org.beetl.sql.core.BeetlSQLException: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2022-03-06 16:07:49.751 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:07:49.790 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:07:49.802 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:07:49.816 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:07:50.210 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:07:50.502 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 16:07:51.129 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 16:09:33.130 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementController': Unsatisfied dependency expressed through field 'incrementService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementService': Unsatisfied dependency expressed through field 'targetUserRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetUserRepository' defined in file [F:\MyEdgeComputing\spring-batch-increment\target\classes\me\mason\springbatch\dao\target\TargetUserRepository.class]: Cannot resolve reference to bean 'targetDatasourceSqlManagerFactoryBean' while setting bean property 'sqlManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetDatasourceSqlManagerFactoryBean': FactoryBean threw exception on object creation; nested exception is org.beetl.sql.core.BeetlSQLException: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2022-03-06 16:10:15.411 [main] [] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [refresh,557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementController': Unsatisfied dependency expressed through field 'incrementService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'incrementService': Unsatisfied dependency expressed through field 'targetUserRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetUserRepository' defined in file [F:\MyEdgeComputing\spring-batch-increment\target\classes\me\mason\springbatch\dao\target\TargetUserRepository.class]: Cannot resolve reference to bean 'targetDatasourceSqlManagerFactoryBean' while setting bean property 'sqlManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'targetDatasourceSqlManagerFactoryBean': FactoryBean threw exception on object creation; nested exception is org.beetl.sql.core.BeetlSQLException: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2022-03-06 16:10:28.990 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:10:29.033 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:10:29.047 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:10:29.061 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:10:29.402 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:10:29.655 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 16:10:30.196 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 16:11:53.836 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:11:53.882 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:11:53.896 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:11:53.910 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:11:54.242 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:11:54.584 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 16:11:55.279 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 16:13:49.450 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:13:49.492 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:13:49.502 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:13:49.513 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:13:49.843 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:13:50.276 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 16:13:50.957 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 16:18:23.402 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:18:23.449 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:18:23.464 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:18:23.479 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:18:23.800 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 16:18:24.175 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 16:18:24.969 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 17:07:03.550 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:07:03.617 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:07:03.635 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:07:03.651 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:07:04.072 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:07:04.579 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 17:07:04.777 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:07:05.112 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 17:10:15.438 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:10:15.485 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:10:15.500 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:10:15.515 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:10:15.842 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:10:15.855 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:10:16.208 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 17:10:16.813 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-06 17:11:05.796 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:11:05.841 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:11:05.852 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:11:05.864 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:11:06.215 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:11:06.248 [main] [] WARN o.s.b.c.l.AbstractListenerFactoryBean [isListener,228] - org.springframework.batch.item.ItemReader is an interface. The implementing class will not be queried for annotation based listener configurations. If using @StepScope on a @Bean method, be sure to return the implementing class so listener annotations can be used.
+2022-03-06 17:11:06.580 [main] [] WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [openEntityManagerInViewInterceptor,237] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-06 17:11:07.145 [main] [] WARN o.s.b.a.batch.JpaBatchConfigurer [determineIsolationLevel,57] - JPA does not support custom isolation levels, so locks may not be taken when launching Jobs

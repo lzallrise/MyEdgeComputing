@@ -21,53 +21,79 @@ import java.util.Objects;
 public abstract class CommonService {
     @Autowired
     private CdcTempService cdcTempService;
-    /**
-     * 初始化作业参数
-     * @return
-     */
-    public JobParameters initJobParam(){
+
+
+    public JobParameters initWMedicalJobParam() {
         CdcTemp currentCdcTemp = cdcTempService.getCurrentCdcTemp(getCdcTempId());
         //若未初始化，则先查询数据库中对应的最后时间
-        if(SyncConstants.STR_STATUS_INIT.equals(currentCdcTemp.getStatus())
-                || SyncConstants.STR_STATUS_FAILED.equals(currentCdcTemp.getStatus())){
-            Date maxUpdateTime = selectMaxUpdateTime();
+        if (SyncConstants.STR_STATUS_INIT.equals(currentCdcTemp.getStatus())
+                || SyncConstants.STR_STATUS_FAILED.equals(currentCdcTemp.getStatus())) {
+            Date maxUpdateTime = selectWMedicalMaxUpdateTime();
             //若没有数据，则按初始时间处理
-            if(Objects.nonNull(maxUpdateTime)){
+            if (Objects.nonNull(maxUpdateTime)) {
                 currentCdcTemp.setLastUpdateTime(maxUpdateTime);
             }
         }
         return JobUtil.makeJobParameters(currentCdcTemp);
     }
-    /**
-     * 初始化作业参数
-     * @return
-     */
-    public JobParameters initJobParam2(){
+
+    public JobParameters initReverseWMedicalJobParam() {
+        CdcTemp currentCdcTemp = cdcTempService.getCurrentCdcTemp(getCdcTempId());
+        //若未初始化，则先查询数据库中对应的最后时间
+        if (SyncConstants.STR_STATUS_INIT.equals(currentCdcTemp.getStatus())
+                || SyncConstants.STR_STATUS_FAILED.equals(currentCdcTemp.getStatus())) {
+            Date maxUpdateTime = selectReverseWMedicalMaxUpdateTime();
+            //若没有数据，则按初始时间处理
+            if (Objects.nonNull(maxUpdateTime)) {
+                currentCdcTemp.setLastUpdateTime(maxUpdateTime);
+            }
+        }
+        return JobUtil.makeJobParameters(currentCdcTemp);
+    }
+
+    public JobParameters initPrescriptionJobParam() {
         CdcTemp2 currentCdcTemp = cdcTempService.getCurrentCdcTemp2(getCdcTempId());
         //若未初始化，则先查询数据库中对应的最后时间
-        if(SyncConstants.STR_STATUS_INIT.equals(currentCdcTemp.getStatus())
-                || SyncConstants.STR_STATUS_FAILED.equals(currentCdcTemp.getStatus())){
-            Date maxUpdateTime = selectMaxUpdateTime2();
+        if (SyncConstants.STR_STATUS_INIT.equals(currentCdcTemp.getStatus())
+                || SyncConstants.STR_STATUS_FAILED.equals(currentCdcTemp.getStatus())) {
+            Date maxUpdateTime = selectPrescriptionMaxUpdateTime();
             //若没有数据，则按初始时间处理
-            if(Objects.nonNull(maxUpdateTime)){
+            if (Objects.nonNull(maxUpdateTime)) {
                 currentCdcTemp.setLastUpdateTime(maxUpdateTime);
             }
         }
         return JobUtil.makeJobParameters2(currentCdcTemp);
     }
-    /**
-     * 查询当前数据的最新时间
-     * @return 日期
-     */
-    public abstract Date selectMaxUpdateTime();
-    /**
-     * 查询当前数据的最新时间
-     * @return 日期
-     */
-    public abstract Date selectMaxUpdateTime2();
+
+    public JobParameters initReversePrescriptionJobParam() {
+        CdcTemp2 currentCdcTemp = cdcTempService.getCurrentCdcTemp2(getCdcTempId());
+        //若未初始化，则先查询数据库中对应的最后时间
+        if (SyncConstants.STR_STATUS_INIT.equals(currentCdcTemp.getStatus())
+                || SyncConstants.STR_STATUS_FAILED.equals(currentCdcTemp.getStatus())) {
+            Date maxUpdateTime = selectReversePrescriptionMaxUpdateTime();
+            //若没有数据，则按初始时间处理
+            if (Objects.nonNull(maxUpdateTime)) {
+                currentCdcTemp.setLastUpdateTime(maxUpdateTime);
+            }
+        }
+        return JobUtil.makeJobParameters2(currentCdcTemp);
+    }
+
+
+
+
     /**
      * 返回当前需要处理的cdcTemp的ID
+     *
      * @return
      */
     public abstract int getCdcTempId();
+
+    public abstract Date selectWMedicalMaxUpdateTime();
+
+    public abstract Date selectReverseWMedicalMaxUpdateTime();
+
+    public abstract Date selectPrescriptionMaxUpdateTime();
+
+    public abstract Date selectReversePrescriptionMaxUpdateTime();
 }

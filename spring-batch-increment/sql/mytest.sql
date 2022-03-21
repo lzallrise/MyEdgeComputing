@@ -1,5 +1,5 @@
 CREATE database if NOT EXISTS `mytest` default character set utf8mb4 collate utf8mb4_general_ci;
-use `mytest`;
+use `my_test`;
 
 -- 创建user表
 CREATE TABLE `test_user` (

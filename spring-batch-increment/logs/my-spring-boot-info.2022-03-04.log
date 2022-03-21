@@ -1,0 +1,903 @@
+2022-03-04 10:38:28.959 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 14428 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-04 10:38:28.960 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-04 10:38:34.922 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-04 10:38:34.992 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2022-03-04 10:38:35.749 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab6ea3bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-04 10:38:36.685 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-04 10:38:36.725 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-04 10:38:36.748 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-04 10:38:36.748 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 10:38:37.040 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-04 10:38:37.040 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 7310 ms
+2022-03-04 10:38:37.531 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 10:38:41.212 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 10:38:47.054 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-04 10:38:47.055 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-04 10:38:47.897 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-04 10:38:48.392 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 10:39:03.346 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]
+2022-03-04 10:40:08.876 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 8888 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-04 10:40:08.877 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-04 10:40:10.393 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-04 10:40:10.421 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2022-03-04 10:40:10.738 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27938c81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-04 10:40:11.097 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-04 10:40:11.112 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-04 10:40:11.124 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-04 10:40:11.125 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 10:40:11.386 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-04 10:40:11.386 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2451 ms
+2022-03-04 10:40:11.571 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 10:40:12.236 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-04 10:40:12.390 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-04 10:40:12.392 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-04 10:40:12.520 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-04 10:40:12.855 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-04 10:40:14.888 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 10:40:15.272 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-04 10:40:15.631 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-04 10:40:15.742 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-04 10:40:16.013 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-04 10:40:16.314 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-04 10:40:16.748 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-04 10:40:17.905 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-04 10:40:18.284 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-04 10:40:18.667 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-04 10:40:18.805 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-04 10:40:19.176 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-04 10:40:19.231 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-04 10:40:19.292 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-04 10:40:19.343 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-04 10:40:19.575 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-04 10:40:19.633 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-04 10:40:19.636 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 11.21 seconds (JVM running for 12.991)
+2022-03-04 10:58:23.484 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 14412 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-04 10:58:23.484 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-04 10:58:24.734 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-04 10:58:24.762 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2022-03-04 10:58:25.087 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28d851fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-04 10:58:25.439 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-04 10:58:25.453 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-04 10:58:25.463 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-04 10:58:25.463 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 10:58:25.580 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-04 10:58:25.581 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2028 ms
+2022-03-04 10:58:25.754 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 10:58:26.247 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-04 10:58:26.390 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-04 10:58:26.392 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-04 10:58:26.575 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-04 10:58:26.851 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-04 10:58:27.826 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 10:58:28.014 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-04 10:58:50.056 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 10:58:50.060 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2022-03-04 10:58:50.069 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2022-03-04 10:58:50.071 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]
+2022-03-04 11:06:12.170 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 12376 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-04 11:06:12.171 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-04 11:06:13.615 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-04 11:06:13.645 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2022-03-04 11:06:14.020 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b6880344] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-04 11:06:14.396 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-04 11:06:14.412 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-04 11:06:14.422 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-04 11:06:14.422 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 11:06:14.567 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-04 11:06:14.568 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2326 ms
+2022-03-04 11:06:14.798 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 11:06:15.272 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-04 11:06:15.413 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-04 11:06:15.414 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-04 11:06:15.557 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-04 11:06:15.733 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-04 11:06:16.565 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 11:06:16.806 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-04 11:06:38.850 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 11:06:38.854 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2022-03-04 11:06:38.863 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2022-03-04 11:06:38.864 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]
+2022-03-04 12:38:52.609 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 14324 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-04 12:38:52.612 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-04 12:38:58.278 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-04 12:38:58.425 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 45ms. Found 0 repository interfaces.
+2022-03-04 12:38:59.228 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5470dfad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-04 12:39:00.351 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-04 12:39:00.424 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-04 12:39:00.464 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-04 12:39:00.464 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 12:39:00.761 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-04 12:39:00.761 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 7864 ms
+2022-03-04 12:39:01.410 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 12:39:02.094 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-04 12:39:02.826 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-04 12:39:02.828 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-04 12:39:03.459 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-04 12:39:04.107 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-04 12:39:06.098 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 12:39:06.556 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-04 12:39:06.951 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-04 12:39:07.485 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-04 12:39:07.785 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-04 12:39:07.804 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-04 12:39:08.089 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-04 12:39:09.127 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-04 12:39:09.724 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-04 12:39:10.272 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-04 12:39:10.454 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-04 12:39:10.874 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-04 12:39:10.944 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-04 12:39:10.998 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-04 12:39:11.036 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-04 12:39:11.325 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-04 12:39:11.370 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-04 12:39:11.373 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 21.246 seconds (JVM running for 27.872)
+2022-03-04 18:39:01.911 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 16844 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-04 18:39:01.912 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-04 18:39:03.587 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-04 18:39:03.630 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2022-03-04 18:39:03.949 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$af5907fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-04 18:39:04.327 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-04 18:39:04.342 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-04 18:39:04.353 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-04 18:39:04.353 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 18:39:04.475 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-04 18:39:04.476 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2495 ms
+2022-03-04 18:39:04.666 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 18:39:05.147 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-04 18:39:05.273 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-04 18:39:05.275 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-04 18:39:05.422 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-04 18:39:05.599 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-04 18:39:06.583 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 18:39:06.774 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-04 18:39:07.169 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-04 18:39:07.306 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-04 18:39:07.573 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-04 18:39:07.591 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-04 18:39:07.920 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-04 18:39:08.369 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-04 18:39:08.606 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-04 18:39:08.830 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-04 18:39:08.848 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-04 18:39:08.943 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-04 18:39:09.006 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-04 18:39:09.027 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-04 18:39:09.066 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-04 18:39:09.220 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-04 18:39:09.247 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-04 18:39:09.250 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 7.876 seconds (JVM running for 9.759)
+2022-03-04 18:39:40.274 [http-nio-8080-exec-1] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-04 18:39:40.275 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-04 18:39:40.287 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 12 ms
+2022-03-04 18:39:40.411 [http-nio-8080-exec-1] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-04 18:39:40.642 [http-nio-8080-exec-1] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-04 18:40:07.362 [http-nio-8080-exec-3] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-04 18:42:01.436 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646390520491, lastUpdateTime=2022-03-03 10:39:04}]
+2022-03-04 18:42:02.768 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:42:03.454 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add1
+2022-03-04 18:42:03.454 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add2
+2022-03-04 18:42:03.454 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add3
+2022-03-04 18:42:03.454 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:42:04.904 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646390520491, lastUpdateTime=2022-03-03 10:39:04}] and the following status: [COMPLETED]
+2022-03-04 18:42:04.905 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:4
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4407
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04407  100%  incrementJob
+
+2022-03-04 18:44:01.085 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646390640142, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 18:44:02.601 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:44:03.044 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:44:04.155 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646390640142, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 18:44:04.155 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4012
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04012  100%  incrementJob
+
+2022-03-04 18:46:00.993 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646390760068, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 18:46:02.405 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:46:02.831 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:46:04.005 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646390760068, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 18:46:04.006 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3937
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03937  100%  incrementJob
+
+2022-03-04 18:48:01.023 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646390880146, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 18:48:02.368 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:48:02.803 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:48:03.865 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646390880146, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 18:48:03.865 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3719
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03719  100%  incrementJob
+
+2022-03-04 18:50:01.051 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391000153, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 18:50:02.468 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:50:02.904 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:50:04.044 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391000153, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 18:50:04.044 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3891
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03891  100%  incrementJob
+
+2022-03-04 18:52:00.908 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391120063, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 18:52:02.188 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:52:02.592 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:52:03.644 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391120063, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 18:52:03.644 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3581
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03581  100%  incrementJob
+
+2022-03-04 18:54:00.899 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391240054, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 18:54:02.220 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:54:02.646 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:54:03.673 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391240054, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 18:54:03.673 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3619
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03619  100%  incrementJob
+
+2022-03-04 18:56:00.896 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391360060, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 18:56:02.168 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:56:02.577 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:56:03.609 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391360060, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 18:56:03.610 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3550
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03550  100%  incrementJob
+
+2022-03-04 18:58:00.992 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391480086, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 18:58:02.457 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 18:58:02.933 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 18:58:04.168 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391480086, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 18:58:04.169 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4083
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04083  100%  incrementJob
+
+2022-03-04 19:00:01.019 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391600144, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:00:02.373 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:00:02.803 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:00:03.898 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391600144, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:00:03.898 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3754
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03754  100%  incrementJob
+
+2022-03-04 19:02:00.937 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391720062, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:02:02.270 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:02:02.701 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:02:03.757 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391720062, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:02:03.758 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3695
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03695  100%  incrementJob
+
+2022-03-04 19:04:01.095 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391840149, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:04:02.475 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:04:02.877 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:04:03.987 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391840149, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:04:03.987 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3838
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03838  100%  incrementJob
+
+2022-03-04 19:06:00.936 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646391960071, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:06:02.341 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:06:02.772 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:06:03.832 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646391960071, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:06:03.833 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3760
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03760  100%  incrementJob
+
+2022-03-04 19:08:00.970 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646392080063, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:08:02.318 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:08:02.731 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:08:03.820 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646392080063, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:08:03.820 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3757
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03757  100%  incrementJob
+
+2022-03-04 19:10:00.998 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646392200071, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:10:02.411 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:10:02.850 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:10:04.270 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646392200071, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:10:04.270 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4199
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04199  100%  incrementJob
+
+2022-03-04 19:12:00.959 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646392320061, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:12:02.346 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:12:02.759 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:12:04.329 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646392320061, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:12:04.330 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4268
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04268  100%  incrementJob
+
+2022-03-04 19:14:01.037 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646392440142, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:14:02.408 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:14:02.832 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:14:04.169 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646392440142, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:14:04.169 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4027
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04027  100%  incrementJob
+
+2022-03-04 19:16:01.059 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646392560168, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:16:02.407 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:16:02.823 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:16:05.461 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646392560168, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:16:05.461 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 5293
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+05293  100%  incrementJob
+
+2022-03-04 19:18:00.952 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646392680062, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:18:02.307 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:18:02.748 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:18:04.709 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646392680062, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:18:04.710 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4648
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04648  100%  incrementJob
+
+2022-03-04 19:20:00.979 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646392800069, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:20:02.327 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:20:02.761 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:20:04.625 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646392800069, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:20:04.625 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4556
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04556  100%  incrementJob
+
+2022-03-04 19:22:01.050 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646392920147, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:22:02.432 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:22:02.868 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:22:54.482 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646392920147, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:22:54.482 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 54335
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+54335  100%  incrementJob
+
+2022-03-04 19:24:01.040 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646393040073, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:24:02.410 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:24:02.852 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:24:04.686 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646393040073, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:24:04.686 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4613
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04613  100%  incrementJob
+
+2022-03-04 19:26:01.085 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646393160155, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:26:02.400 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:26:02.862 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:26:07.722 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646393160155, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:26:07.722 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 7567
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+07567  100%  incrementJob
+
+2022-03-04 19:28:01.078 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646393280146, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:28:02.388 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:28:02.854 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:28:03.907 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646393280146, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:28:03.907 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3761
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03761  100%  incrementJob
+
+2022-03-04 19:30:00.941 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646393400061, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:30:02.257 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:30:02.687 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:30:05.914 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646393400061, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:30:05.914 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 5853
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+05853  100%  incrementJob
+
+2022-03-04 19:32:00.955 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646393520069, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:32:02.262 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:32:02.703 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:32:04.819 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646393520069, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:32:04.820 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4751
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04751  100%  incrementJob
+
+2022-03-04 19:34:01.117 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646393640157, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:34:02.402 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:34:02.811 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:34:08.826 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646393640157, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:34:08.826 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 8669
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+08669  100%  incrementJob
+
+2022-03-04 19:36:01.119 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646393760180, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:36:02.444 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:36:02.856 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:36:06.811 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646393760180, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:36:06.811 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 6631
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+06631  100%  incrementJob
+
+2022-03-04 19:38:01.014 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646393880059, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:38:02.406 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:38:02.822 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:38:04.155 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646393880059, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:38:04.156 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4097
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04097  100%  incrementJob
+
+2022-03-04 19:40:01.004 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646394000150, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:40:02.340 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:40:02.813 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:40:04.213 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646394000150, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:40:04.213 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4063
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04063  100%  incrementJob
+
+2022-03-04 19:51:38.084 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 15008 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-04 19:51:38.085 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-04 19:51:39.471 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-04 19:51:39.498 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2022-03-04 19:51:39.823 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28d851fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-04 19:51:40.269 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-04 19:51:40.282 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-04 19:51:40.291 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-04 19:51:40.291 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 19:51:40.414 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-04 19:51:40.414 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2283 ms
+2022-03-04 19:51:40.598 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 19:51:41.037 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-04 19:51:41.160 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-04 19:51:41.162 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-04 19:51:41.301 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-04 19:51:41.507 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-04 19:51:42.520 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 19:51:42.783 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-04 19:51:43.704 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-04 19:51:43.830 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-04 19:51:44.112 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-04 19:51:44.133 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-04 19:51:44.588 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-04 19:51:45.043 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-04 19:51:45.252 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-04 19:51:45.448 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-04 19:51:45.466 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-04 19:51:45.561 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-04 19:51:45.614 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-04 19:51:45.629 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-04 19:51:45.660 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-04 19:51:45.844 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-04 19:51:45.867 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-04 19:51:45.870 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 8.144 seconds (JVM running for 10.117)
+2022-03-04 19:52:01.595 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646394720324, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:52:03.009 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:52:03.677 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:52:06.202 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646394720324, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:52:06.204 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 5875
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+05875  100%  incrementJob
+
+2022-03-04 19:54:01.073 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646394840155, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:54:02.546 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:54:02.995 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:54:05.205 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646394840155, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:54:05.205 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 5050
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+05050  100%  incrementJob
+
+2022-03-04 19:56:01.006 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646394960086, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:56:02.370 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:56:02.820 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:56:41.381 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646394960086, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:56:41.382 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 41296
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+41296  100%  incrementJob
+
+2022-03-04 19:58:00.989 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646395080070, lastUpdateTime=2022-03-04 11:05:53}]
+2022-03-04 19:58:02.277 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 19:58:02.824 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: wys
+2022-03-04 19:58:02.824 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 19:58:05.663 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646395080070, lastUpdateTime=2022-03-04 11:05:53}] and the following status: [COMPLETED]
+2022-03-04 19:58:05.663 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:2
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 5593
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+05593  100%  incrementJob
+
+2022-03-04 20:00:01.066 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646395200165, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:00:02.371 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:00:02.796 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:00:04.963 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646395200165, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:00:04.964 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4799
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04799  100%  incrementJob
+
+2022-03-04 20:02:01.019 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646395320137, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:02:02.407 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:02:02.860 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:02:05.069 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646395320137, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:02:05.069 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4932
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04932  100%  incrementJob
+
+2022-03-04 20:04:00.949 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646395440068, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:04:02.241 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:04:02.686 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:04:04.864 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646395440068, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:04:04.864 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4796
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04796  100%  incrementJob
+
+2022-03-04 20:06:00.963 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646395560063, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:06:02.265 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:06:02.686 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:06:06.356 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646395560063, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:06:06.356 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 6293
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+06293  100%  incrementJob
+
+2022-03-04 20:08:01.026 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646395680073, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:08:02.369 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:08:02.810 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:08:04.160 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646395680073, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:08:04.161 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4088
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04088  100%  incrementJob
+
+2022-03-04 20:10:00.980 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646395800071, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:10:02.318 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:10:02.742 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:10:05.836 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646395800071, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:10:05.837 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 5764
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+05764  100%  incrementJob
+
+2022-03-04 20:12:00.971 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646395920095, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:12:02.346 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:12:02.802 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:12:35.181 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646395920095, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:12:35.181 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 35086
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+35086  100%  incrementJob
+
+2022-03-04 20:14:01.006 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646396040059, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:14:02.317 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:14:02.729 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:14:04.299 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646396040059, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:14:04.299 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4240
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04240  100%  incrementJob
+
+2022-03-04 20:33:51.429 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 19260 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-04 20:33:51.430 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-04 20:33:53.520 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-04 20:33:53.548 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2022-03-04 20:33:53.875 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6cc67213] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-04 20:33:54.275 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-04 20:33:54.290 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-04 20:33:54.299 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-04 20:33:54.300 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 20:33:54.426 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-04 20:33:54.426 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2886 ms
+2022-03-04 20:33:54.634 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-04 20:33:55.080 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-04 20:33:55.201 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-04 20:33:55.202 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-04 20:33:55.334 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-04 20:33:55.532 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-04 20:33:56.393 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-04 20:33:56.586 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-04 20:33:56.756 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-04 20:33:56.908 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-04 20:33:57.199 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-04 20:33:57.219 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-04 20:33:57.557 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-04 20:33:57.996 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-04 20:33:58.206 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-04 20:33:58.405 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-04 20:33:58.425 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-04 20:33:58.553 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-04 20:33:58.661 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-04 20:33:58.689 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-04 20:33:58.735 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-04 20:33:59.005 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-04 20:33:59.033 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-04 20:33:59.045 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 8.075 seconds (JVM running for 10.236)
+2022-03-04 20:34:01.405 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646397240356, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:34:02.767 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:34:03.385 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:34:04.430 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646397240356, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:34:04.430 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4071
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04071  100%  incrementJob
+
+2022-03-04 20:36:00.915 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646397360060, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:36:02.186 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:36:02.581 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:36:03.656 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646397360060, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:36:03.656 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3596
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03596  100%  incrementJob
+
+2022-03-04 20:36:49.623 [http-nio-8080-exec-2] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-04 20:36:49.623 [http-nio-8080-exec-2] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-04 20:36:49.635 [http-nio-8080-exec-2] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 12 ms
+2022-03-04 20:36:49.661 [http-nio-8080-exec-2] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-04 20:36:50.689 [http-nio-8080-exec-2] [8b35860f28204b319a7bf26bd22e4655] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646397409733, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:36:51.963 [http-nio-8080-exec-2] [8b35860f28204b319a7bf26bd22e4655] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:36:52.371 [http-nio-8080-exec-2] [8b35860f28204b319a7bf26bd22e4655] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:36:53.431 [http-nio-8080-exec-2] [8b35860f28204b319a7bf26bd22e4655] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646397409733, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:36:53.432 [http-nio-8080-exec-2] [8b35860f28204b319a7bf26bd22e4655] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3699
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03699  100%  incrementJob
+
+2022-03-04 20:38:00.974 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646397480100, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:38:02.294 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:38:02.739 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:38:03.806 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646397480100, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:38:03.806 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3705
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03705  100%  incrementJob
+
+2022-03-04 20:40:01.077 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646397600199, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:40:02.372 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:40:02.812 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:40:03.879 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646397600199, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:40:03.879 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3680
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03680  100%  incrementJob
+
+2022-03-04 20:42:01.084 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646397720220, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:42:02.415 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:42:02.830 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:42:03.883 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646397720220, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:42:03.884 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3664
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03664  100%  incrementJob
+
+2022-03-04 20:44:01.132 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646397840170, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:44:02.467 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:44:02.895 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:44:04.014 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646397840170, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:44:04.014 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3844
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03844  100%  incrementJob
+
+2022-03-04 20:46:01.114 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1646397960144, lastUpdateTime=2022-03-04 19:57:43}]
+2022-03-04 20:46:02.413 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2022-03-04 20:46:02.839 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: kongdong
+2022-03-04 20:46:03.961 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1646397960144, lastUpdateTime=2022-03-04 19:57:43}] and the following status: [COMPLETED]
+2022-03-04 20:46:03.962 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 3817
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+03817  100%  incrementJob
+

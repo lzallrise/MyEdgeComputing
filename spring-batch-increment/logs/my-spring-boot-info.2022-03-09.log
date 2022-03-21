@@ -1,0 +1,92 @@
+2022-03-09 09:44:19.016 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 11964 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-09 09:44:19.016 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-09 09:44:24.238 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-09 09:44:24.552 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2022-03-09 09:44:25.666 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b085d2c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 09:44:26.477 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-09 09:44:26.535 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-09 09:44:26.549 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-09 09:44:26.549 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-09 09:44:26.881 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-09 09:44:26.881 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 7614 ms
+2022-03-09 09:44:27.466 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-09 09:44:28.094 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-09 09:44:28.519 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-09 09:44:28.521 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-09 09:44:28.840 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-09 09:44:29.430 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-09 09:44:30.927 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-09 09:44:31.286 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-09 09:44:31.442 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-09 09:44:31.468 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-09 09:44:31.784 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-09 09:44:31.813 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-09 09:44:32.132 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-09 09:44:33.375 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-09 09:44:33.795 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-09 09:44:34.197 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-09 09:44:34.309 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-09 09:44:34.485 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-09 09:44:34.560 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-09 09:44:34.620 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-09 09:44:34.680 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-09 09:44:34.970 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-09 09:44:35.011 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-09 09:44:35.016 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 17.277 seconds (JVM running for 21.389)
+2022-03-09 09:44:46.941 [http-nio-8080-exec-1] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-09 09:44:46.942 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,524] - Initializing Servlet 'dispatcherServlet'
+2022-03-09 09:44:46.956 [http-nio-8080-exec-1] [] INFO o.s.web.servlet.DispatcherServlet [initServletBean,546] - Completed initialization in 14 ms
+2022-03-09 09:44:46.988 [http-nio-8080-exec-1] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 10:45:34.305 [http-nio-8080-exec-3] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 10:47:11.654 [http-nio-8080-exec-5] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 10:53:09.058 [http-nio-8080-exec-7] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 11:04:25.998 [http-nio-8080-exec-9] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 11:04:27.486 [http-nio-8080-exec-9] [b350f91f3a08443eb12e941cfa27950c] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReverseWMedicalSJob]] launched with the following parameters: [{time=1646795066357, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-09 11:04:29.162 [http-nio-8080-exec-9] [b350f91f3a08443eb12e941cfa27950c] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReverseWMedicalSStep]
+2022-03-09 11:04:29.928 [http-nio-8080-exec-9] [b350f91f3a08443eb12e941cfa27950c] INFO m.m.s.e.i.s.IncrementReverseWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-09 11:04:31.239 [http-nio-8080-exec-9] [b350f91f3a08443eb12e941cfa27950c] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReverseWMedicalSJob]] completed with the following parameters: [{time=1646795066357, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-09 11:04:31.241 [http-nio-8080-exec-9] [b350f91f3a08443eb12e941cfa27950c] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4876
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04876  100%  incrementReverseWMedicalSJob
+
+2022-03-09 11:04:43.029 [http-nio-8080-exec-10] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 11:04:44.070 [http-nio-8080-exec-10] [eb29da2aab204a70a061f81e0d4ddb33] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementReverseWMedicalSJob]] launched with the following parameters: [{time=1646795083086, lastUpdateTime=2022-03-06 16:58:13}]
+2022-03-09 11:04:45.440 [http-nio-8080-exec-10] [eb29da2aab204a70a061f81e0d4ddb33] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementReverseWMedicalSStep]
+2022-03-09 11:04:45.884 [http-nio-8080-exec-10] [eb29da2aab204a70a061f81e0d4ddb33] INFO m.m.s.e.i.s.IncrementReverseWMedicalSItemProcessor [process,23] - >>>>>>>>>>>>>>>>>increment item process: 感康颗粒
+2022-03-09 11:04:47.208 [http-nio-8080-exec-10] [eb29da2aab204a70a061f81e0d4ddb33] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementReverseWMedicalSJob]] completed with the following parameters: [{time=1646795083086, lastUpdateTime=2022-03-06 16:58:13}] and the following status: [COMPLETED]
+2022-03-09 11:04:47.209 [http-nio-8080-exec-10] [eb29da2aab204a70a061f81e0d4ddb33] INFO m.m.s.s.batch.JobLauncherService [startJob,68] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 4123
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+04123  100%  incrementReverseWMedicalSJob
+
+2022-03-09 11:51:38.765 [http-nio-8080-exec-2] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 12:13:53.388 [http-nio-8080-exec-4] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 12:23:55.899 [http-nio-8080-exec-6] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 12:34:48.427 [http-nio-8080-exec-8] [] INFO m.m.s.i.RequestIdTraceInterceptor [getRequestId,32] - request parameter 和header 都没有requestId入参
+2022-03-09 17:58:47.483 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 2760 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-09 17:58:47.483 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-09 17:58:52.129 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-09 17:58:52.284 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 45ms. Found 0 repository interfaces.
+2022-03-09 17:58:52.989 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c0a0690] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 17:58:54.093 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-09 17:58:54.172 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-09 17:58:54.213 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-09 17:58:54.213 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-09 17:58:54.651 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-09 17:58:54.651 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 6918 ms
+2022-03-09 17:58:55.094 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-09 17:58:58.820 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-09 17:59:03.219 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-09 17:59:03.221 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-09 17:59:03.938 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-09 17:59:04.392 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-09 17:59:07.581 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]

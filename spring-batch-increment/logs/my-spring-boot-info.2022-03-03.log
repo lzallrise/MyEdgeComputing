@@ -1,0 +1,699 @@
+2021-12-20 11:39:23.677 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 11:39:23.680 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 11:39:23.811 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 11:39:23.826 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6743e411, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3eb25e1a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@477b4cdf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@77c2494c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f5958c9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@233795b6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3eb738bb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5bda8e08, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1e800aaa, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@185a6e9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6f03482, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9d5509a]
+2021-12-20 11:39:24.110 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 22852 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 11:39:24.111 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 11:39:25.076 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 11:39:25.105 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2021-12-20 11:39:25.422 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dfe3bd3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 11:39:25.615 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 11:39:30.838 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 11:39:36.018 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 11:39:36.019 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 11:39:36.140 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 11:39:37.287 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 11:40:17.236 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 11:40:17.240 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 11:40:17.367 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 11:40:17.383 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6743e411, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3eb25e1a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@477b4cdf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@77c2494c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f5958c9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@233795b6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3eb738bb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5bda8e08, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1e800aaa, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@185a6e9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6f03482, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9d5509a]
+2021-12-20 11:40:17.654 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 11580 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 11:40:17.655 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 11:40:18.631 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 11:40:18.657 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-12-20 11:40:18.979 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$62c53e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 11:40:19.169 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 11:40:20.375 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 11:40:21.484 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 11:40:21.485 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 11:40:21.600 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 11:40:22.720 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 11:41:24.611 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 11:41:24.614 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 11:41:24.743 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 11:41:24.759 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 11:41:25.041 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 16556 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 11:41:25.042 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 11:41:26.038 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 11:41:26.066 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2021-12-20 11:41:26.390 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fc8cb53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 11:41:26.587 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 11:41:27.792 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 11:41:28.902 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 11:41:28.903 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 11:41:29.028 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 11:41:30.196 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 14:53:56.439 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 14:53:56.442 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 14:53:56.579 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 14:53:56.593 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 14:53:56.883 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 20020 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 14:53:56.884 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 14:53:57.883 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 14:53:57.912 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2021-12-20 14:53:58.248 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a553801b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 14:53:58.445 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 14:53:58.729 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 14:53:58.855 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 14:53:58.856 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 14:53:58.978 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 14:54:00.127 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 14:54:00.727 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 14:54:00.921 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 14:54:01.028 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 14:54:01.655 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 14:54:02.074 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 14:54:02.256 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 14:54:03.300 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 14:54:03.301 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 14:54:03.313 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 14:54:03.313 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 14:54:03.317 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 14:54:03.321 [main] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 14:54:15.367 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 14:54:15.372 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 14:54:15.503 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 14:54:15.518 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 14:54:15.805 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 25524 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 14:54:15.806 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 14:54:16.821 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 14:54:16.849 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2021-12-20 14:54:17.198 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7f17397] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 14:54:17.408 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 14:54:17.658 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 14:54:17.782 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 14:54:17.783 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 14:54:17.904 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 14:54:19.040 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 14:54:19.649 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 14:54:19.847 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 14:54:19.871 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 14:54:20.484 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 14:54:20.932 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 14:54:21.107 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 14:54:21.227 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 14:54:21.285 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 14:54:21.303 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 14:54:21.508 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 14:54:21.525 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 14:54:21.553 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 14:54:21.803 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarted,59] - Started IncrementJobTest in 6.231 seconds (JVM running for 7.057)
+2021-12-20 14:54:22.751 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639983262085, lastUpdateTime=2019-05-31 11:21:47}]
+2021-12-20 14:54:23.455 [main] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 14:54:23.765 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: 林**
+2021-12-20 14:54:23.765 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add1
+2021-12-20 14:54:23.765 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add2
+2021-12-20 14:54:23.765 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add3
+2021-12-20 14:54:24.270 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639983262085, lastUpdateTime=2019-05-31 11:21:47}] and the following status: [COMPLETED]
+2021-12-20 14:54:24.271 [main] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:4
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 2179
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+02179  100%  incrementJob
+
+2021-12-20 14:54:24.286 [Thread-10] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 14:54:24.287 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 14:54:24.299 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 14:54:24.300 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 14:54:24.311 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 14:54:24.311 [Thread-10] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 14:54:24.315 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 14:54:24.319 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 15:11:17.116 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 15:11:17.122 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 15:11:17.264 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 15:11:17.279 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 15:11:17.556 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 22984 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 15:11:17.557 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 15:11:18.581 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 15:11:18.607 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2021-12-20 15:11:18.940 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$faa12f9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 15:11:19.128 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 15:11:19.384 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 15:11:19.500 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 15:11:19.501 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 15:11:19.620 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 15:11:20.743 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 15:11:21.358 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:11:21.546 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 15:11:21.644 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 15:11:22.249 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 15:11:22.680 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:11:22.856 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 15:11:22.933 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 15:11:22.990 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 15:11:23.007 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 15:11:23.210 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 15:11:23.226 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 15:11:23.249 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 15:11:23.505 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarted,59] - Started IncrementJobTest in 6.173 seconds (JVM running for 6.998)
+2021-12-20 15:11:24.383 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639984283770, lastUpdateTime=2021-12-20 14:51:38}]
+2021-12-20 15:11:24.994 [main] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 15:11:25.317 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 15:11:25.317 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add2
+2021-12-20 15:11:25.317 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add3
+2021-12-20 15:11:26.232 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639984283770, lastUpdateTime=2021-12-20 14:51:38}] and the following status: [COMPLETED]
+2021-12-20 15:11:26.233 [main] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:3
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 2458
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+02458  100%  incrementJob
+
+2021-12-20 15:11:26.244 [Thread-10] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:11:26.246 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 15:11:26.259 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 15:11:26.260 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 15:11:26.269 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 15:11:26.269 [Thread-10] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:11:26.272 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 15:11:26.275 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 15:12:40.440 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 15:12:40.443 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 15:12:40.607 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 15:12:40.623 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 15:12:40.905 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 10040 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 15:12:40.906 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 15:12:41.917 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 15:12:41.948 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2021-12-20 15:12:42.307 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fc8cb53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 15:12:42.495 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 15:12:42.766 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 15:12:42.884 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 15:12:42.886 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 15:12:43.004 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 15:12:44.151 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 15:12:44.769 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:12:44.961 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 15:12:45.066 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 15:12:45.682 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 15:12:46.130 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:12:46.309 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 15:12:46.439 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 15:12:46.499 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 15:12:46.520 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 15:12:46.709 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 15:12:46.728 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 15:12:46.750 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 15:12:47.036 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarted,59] - Started IncrementJobTest in 6.362 seconds (JVM running for 7.214)
+2021-12-20 15:12:48.035 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639984367313, lastUpdateTime=2021-12-20 15:10:52}]
+2021-12-20 15:12:48.664 [main] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 15:12:48.985 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 15:12:49.562 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639984367313, lastUpdateTime=2021-12-20 15:10:52}] and the following status: [COMPLETED]
+2021-12-20 15:12:49.563 [main] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 2245
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+02245  100%  incrementJob
+
+2021-12-20 15:12:49.576 [Thread-10] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:12:49.576 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 15:12:49.586 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 15:12:49.588 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 15:12:49.596 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 15:12:49.596 [Thread-10] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:12:49.598 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 15:12:49.602 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 15:13:43.028 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 15:13:43.032 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 15:13:43.167 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 15:13:43.182 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 15:13:43.475 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 23996 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 15:13:43.475 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 15:13:44.476 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 15:13:44.506 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2021-12-20 15:13:44.855 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7f17397] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 15:13:45.047 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 15:13:45.295 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 15:13:45.410 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 15:13:45.412 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 15:13:45.532 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 15:13:46.665 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 15:13:47.274 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:13:47.478 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 15:13:47.572 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 15:13:48.173 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 15:13:48.587 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:13:48.759 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 15:13:48.823 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 15:13:48.894 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 15:13:48.911 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 15:13:49.096 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 15:13:49.112 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 15:13:49.138 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 15:13:49.406 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarted,59] - Started IncrementJobTest in 6.163 seconds (JVM running for 7.002)
+2021-12-20 15:13:50.289 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639984429686, lastUpdateTime=2021-12-20 15:10:52}]
+2021-12-20 15:13:50.821 [main] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 15:13:51.069 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 15:13:51.683 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639984429686, lastUpdateTime=2021-12-20 15:10:52}] and the following status: [COMPLETED]
+2021-12-20 15:13:51.683 [main] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 1992
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+01992  100%  incrementJob
+
+2021-12-20 15:13:51.697 [Thread-10] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:13:51.698 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 15:13:51.711 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 15:13:51.712 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 15:13:51.722 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 15:13:51.722 [Thread-10] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:13:51.725 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 15:13:51.728 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 15:15:43.953 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 15:15:43.956 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 15:15:44.109 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 15:15:44.128 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 15:15:44.436 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 2424 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 15:15:44.437 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 15:15:45.569 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 15:15:45.597 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2021-12-20 15:15:45.937 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fc8cb53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 15:15:46.131 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 15:15:46.420 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 15:15:46.538 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 15:15:46.539 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 15:15:46.656 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 15:15:47.823 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 15:15:48.430 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:15:48.643 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 15:15:48.754 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 15:15:49.398 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 15:15:49.849 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:15:50.027 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 15:15:50.114 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 15:15:50.184 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 15:15:50.203 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 15:15:50.406 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 15:15:50.428 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 15:15:50.457 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 15:15:50.720 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarted,59] - Started IncrementJobTest in 6.539 seconds (JVM running for 7.4)
+2021-12-20 15:15:51.570 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639984550965, lastUpdateTime=2021-12-20 15:10:52}]
+2021-12-20 15:15:52.287 [main] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 15:15:53.015 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639984550965, lastUpdateTime=2021-12-20 15:10:52}] and the following status: [COMPLETED]
+2021-12-20 15:15:53.015 [main] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:0
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 2045
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+02045  100%  incrementJob
+
+2021-12-20 15:15:53.028 [Thread-10] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:15:53.029 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 15:15:53.038 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 15:15:53.039 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 15:15:53.049 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 15:15:53.049 [Thread-10] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:15:53.051 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 15:15:53.054 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 15:20:50.375 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 15:20:50.379 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 15:20:50.519 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 15:20:50.533 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 15:20:50.828 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 17488 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 15:20:50.828 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 15:20:51.819 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 15:20:51.845 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-12-20 15:20:52.162 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7f17397] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 15:20:52.359 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 15:20:52.557 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 15:20:52.677 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 15:20:52.678 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 15:20:52.797 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 15:20:53.943 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 15:20:54.568 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:20:54.769 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 15:20:54.871 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 15:20:55.471 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 15:20:55.908 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:20:56.087 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 15:20:56.140 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 15:20:56.199 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 15:20:56.222 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 15:20:56.451 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 15:20:56.469 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 15:20:56.491 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 15:20:56.732 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarted,59] - Started IncrementJobTest in 6.148 seconds (JVM running for 7.0)
+2021-12-20 15:20:57.334 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639984856941, lastUpdateTime=2021-12-20 15:10:52}]
+2021-12-20 15:20:57.643 [main] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 15:20:57.849 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 15:20:58.185 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639984856941, lastUpdateTime=2021-12-20 15:10:52}] and the following status: [COMPLETED]
+2021-12-20 15:20:58.186 [main] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 1240
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+01240  100%  incrementJob
+
+2021-12-20 15:20:58.200 [Thread-10] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:20:58.200 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 15:20:58.211 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 15:20:58.212 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 15:20:58.221 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 15:20:58.221 [Thread-10] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:20:58.224 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 15:20:58.228 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 15:58:55.724 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [buildDefaultMergedContextConfiguration,308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.mason.springbatch.IncrementJobTest], using SpringBootContextLoader
+2021-12-20 15:58:55.727 [main] [] INFO o.s.t.c.s.AbstractContextLoader [generateDefaultLocations,264] - Could not detect default resource locations for test class [me.mason.springbatch.IncrementJobTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-20 15:58:55.865 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getDefaultTestExecutionListenerClassNames,248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-12-20 15:58:55.882 [main] [] INFO o.s.b.t.c.SpringBootTestContextBootstrapper [getTestExecutionListeners,177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@179ece50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0090a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cd3e762, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa121e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7eac9008, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4116aac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62ddbd7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52ef6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed3ccb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a677343, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15de0b3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@489115ef]
+2021-12-20 15:58:56.172 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarting,50] - Starting IncrementJobTest on LAPTOP-RTGNNVJT with PID 8896 (started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 15:58:56.173 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 15:58:57.177 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 15:58:57.209 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2021-12-20 15:58:57.564 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7f17397] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 15:58:57.767 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 15:58:57.963 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 15:58:58.088 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 15:58:58.090 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 15:58:58.225 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 15:58:59.387 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 15:58:59.996 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:59:00.232 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 15:59:00.257 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 15:59:00.912 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 15:59:01.445 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:59:01.638 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 15:59:01.754 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 15:59:01.817 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 15:59:01.835 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 15:59:02.050 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 15:59:02.068 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 15:59:02.095 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 15:59:02.257 [main] [] INFO m.mason.springbatch.IncrementJobTest [logStarted,59] - Started IncrementJobTest in 6.324 seconds (JVM running for 7.261)
+2021-12-20 15:59:03.204 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639987142621, lastUpdateTime=2021-12-20 15:19:38}]
+2021-12-20 15:59:03.834 [main] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 15:59:04.126 [main] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 15:59:04.774 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639987142621, lastUpdateTime=2021-12-20 15:19:38}] and the following status: [COMPLETED]
+2021-12-20 15:59:04.774 [main] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 2147
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+02147  100%  incrementJob
+
+2021-12-20 15:59:04.788 [Thread-10] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 15:59:04.789 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 15:59:04.801 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 15:59:04.803 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 15:59:04.812 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 15:59:04.812 [Thread-10] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 15:59:04.816 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 15:59:04.821 [Thread-10] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 16:11:58.891 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-RTGNNVJT with PID 14240 (E:\EdgeComputing\spring-batch-example\spring-batch-increment\target\classes started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 16:11:58.891 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 16:11:59.582 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 16:11:59.603 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2021-12-20 16:11:59.803 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db87b03f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 16:12:00.077 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2021-12-20 16:12:00.087 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-20 16:12:00.095 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2021-12-20 16:12:00.095 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-12-20 16:12:00.099 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-12-20 16:12:00.100 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-12-20 16:12:00.100 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-12-20 16:12:00.116 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-12-20 16:12:00.218 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2021-12-20 16:12:00.218 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 1301 ms
+2021-12-20 16:12:00.341 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 16:12:00.532 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 16:12:00.611 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 16:12:00.612 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 16:12:00.695 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 16:12:00.809 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 16:12:01.241 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 16:12:01.349 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 16:12:01.453 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 16:12:01.769 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 16:12:01.877 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 16:12:01.975 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 16:12:02.069 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 16:12:02.089 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 16:12:02.101 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 16:12:02.184 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 16:12:02.194 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 16:12:02.215 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 16:12:02.309 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-20 16:12:02.326 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2021-12-20 16:12:02.329 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 3.659 seconds (JVM running for 5.392)
+2021-12-20 16:16:28.259 [Thread-17] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 16:16:28.260 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 16:16:28.264 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 16:16:28.265 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 16:16:28.270 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 16:16:28.270 [Thread-17] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 16:16:28.272 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 16:16:28.276 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 16:17:00.819 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-RTGNNVJT with PID 23204 (E:\EdgeComputing\spring-batch-example\spring-batch-increment\target\classes started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 16:17:00.820 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 16:17:01.572 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 16:17:01.593 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2021-12-20 16:17:01.790 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f23abeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 16:17:02.029 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2021-12-20 16:17:02.037 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-20 16:17:02.043 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2021-12-20 16:17:02.044 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-12-20 16:17:02.048 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-12-20 16:17:02.048 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-12-20 16:17:02.049 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-12-20 16:17:02.052 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-12-20 16:17:02.147 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2021-12-20 16:17:02.147 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 1290 ms
+2021-12-20 16:17:02.260 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 16:17:02.396 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 16:17:02.474 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 16:17:02.475 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 16:17:02.562 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 16:17:02.679 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 16:17:03.105 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 16:17:03.213 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 16:17:03.238 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 16:17:03.548 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 16:17:03.659 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 16:17:03.761 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 16:17:03.783 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 16:17:03.803 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 16:17:03.814 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 16:17:03.899 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 16:17:03.909 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 16:17:03.934 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 16:17:04.032 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-20 16:17:04.050 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2021-12-20 16:17:04.052 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 3.497 seconds (JVM running for 5.321)
+2021-12-20 16:18:56.159 [Thread-17] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 16:18:56.159 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 16:18:56.163 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 16:18:56.164 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 16:18:56.167 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 16:18:56.167 [Thread-17] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 16:18:56.169 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 16:18:56.172 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2021-12-20 16:19:02.389 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-RTGNNVJT with PID 4088 (E:\EdgeComputing\spring-batch-example\spring-batch-increment\target\classes started by LZ in E:\EdgeComputing\spring-batch-example\spring-batch-increment)
+2021-12-20 16:19:02.390 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2021-12-20 16:19:03.106 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-20 16:19:03.126 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2021-12-20 16:19:03.333 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a203968e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-20 16:19:03.576 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2021-12-20 16:19:03.585 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-20 16:19:03.591 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2021-12-20 16:19:03.591 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-12-20 16:19:03.595 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-12-20 16:19:03.596 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-12-20 16:19:03.596 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-12-20 16:19:03.599 [main] [] INFO o.a.c.core.AprLifecycleListener [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-12-20 16:19:03.692 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2021-12-20 16:19:03.692 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 1276 ms
+2021-12-20 16:19:03.806 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2021-12-20 16:19:03.938 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2021-12-20 16:19:04.020 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2021-12-20 16:19:04.020 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2021-12-20 16:19:04.101 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-20 16:19:04.214 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-20 16:19:04.641 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 16:19:04.749 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2021-12-20 16:19:04.776 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2021-12-20 16:19:05.114 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-12-20 16:19:05.222 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-20 16:19:05.318 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2021-12-20 16:19:05.343 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2021-12-20 16:19:05.364 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2021-12-20 16:19:05.375 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-20 16:19:05.433 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2021-12-20 16:19:05.464 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2021-12-20 16:19:05.475 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2021-12-20 16:19:05.495 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2021-12-20 16:19:05.593 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-20 16:19:05.609 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2021-12-20 16:19:05.611 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 3.467 seconds (JVM running for 5.201)
+2021-12-20 16:20:00.566 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639988400131, lastUpdateTime=2021-12-20 15:58:35}]
+2021-12-20 16:20:00.916 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 16:20:01.202 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 16:20:01.531 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639988400131, lastUpdateTime=2021-12-20 15:58:35}] and the following status: [COMPLETED]
+2021-12-20 16:20:01.532 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 1399
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+01399  100%  incrementJob
+
+2021-12-20 16:22:00.579 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639988520017, lastUpdateTime=2021-12-20 15:58:35}]
+2021-12-20 16:22:01.209 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 16:22:01.442 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 16:22:01.442 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 16:22:02.050 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639988520017, lastUpdateTime=2021-12-20 15:58:35}] and the following status: [COMPLETED]
+2021-12-20 16:22:02.051 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:2
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 2033
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+02033  100%  incrementJob
+
+2021-12-20 16:24:00.535 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639988640038, lastUpdateTime=2021-12-20 16:20:27}]
+2021-12-20 16:24:01.114 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 16:24:01.373 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 16:24:02.004 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639988640038, lastUpdateTime=2021-12-20 16:20:27}] and the following status: [COMPLETED]
+2021-12-20 16:24:02.004 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 1966
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+01966  100%  incrementJob
+
+2021-12-20 16:26:00.404 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639988760014, lastUpdateTime=2021-12-20 16:20:27}]
+2021-12-20 16:26:00.740 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 16:26:01.009 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_04
+2021-12-20 16:26:01.009 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_add4
+2021-12-20 16:26:01.629 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639988760014, lastUpdateTime=2021-12-20 16:20:27}] and the following status: [COMPLETED]
+2021-12-20 16:26:01.629 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:2
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 1615
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+01615  100%  incrementJob
+
+2021-12-20 16:28:00.263 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639988880023, lastUpdateTime=2021-12-20 16:24:48}]
+2021-12-20 16:28:00.571 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 16:28:00.742 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_08
+2021-12-20 16:28:01.082 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639988880023, lastUpdateTime=2021-12-20 16:24:48}] and the following status: [COMPLETED]
+2021-12-20 16:28:01.082 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 1059
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+01059  100%  incrementJob
+
+2021-12-20 16:30:00.311 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639989000017, lastUpdateTime=2021-12-20 16:26:54}]
+2021-12-20 16:30:00.604 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 16:30:00.746 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_08
+2021-12-20 16:30:01.045 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639989000017, lastUpdateTime=2021-12-20 16:26:54}] and the following status: [COMPLETED]
+2021-12-20 16:30:01.045 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 1028
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+01028  100%  incrementJob
+
+2021-12-20 16:32:00.489 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,142] - Job: [FlowJob: [name=incrementJob]] launched with the following parameters: [{time=1639989120028, lastUpdateTime=2021-12-20 16:26:54}]
+2021-12-20 16:32:00.920 [scheduling-1] [] INFO o.s.batch.core.job.SimpleStepHandler [handleStep,146] - Executing step: [incrementStep]
+2021-12-20 16:32:01.116 [scheduling-1] [] INFO m.m.s.e.i.s.IncrementUserItemProcessor [process,24] - >>>>>>>>>>>>>>>>>increment item process: test_08
+2021-12-20 16:32:01.554 [scheduling-1] [] INFO o.s.b.c.l.support.SimpleJobLauncher [run,145] - Job: [FlowJob: [name=incrementJob]] completed with the following parameters: [{time=1639989120028, lastUpdateTime=2021-12-20 16:26:54}] and the following status: [COMPLETED]
+2021-12-20 16:32:01.554 [scheduling-1] [] INFO m.m.s.s.batch.JobLauncherService [startJob,67] - 
+resultCount: readCount:1,filterCount:0,commitCount:1,writeCount:1
+exitStatus: exitCode=COMPLETED;exitDescription=
+timeInfo: StopWatch '': running time (millis) = 1526
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+01526  100%  incrementJob
+
+2021-12-20 16:32:05.550 [Thread-17] [] INFO o.s.s.c.ThreadPoolTaskScheduler [shutdown,208] - Shutting down ExecutorService 'taskScheduler'
+2021-12-20 16:32:05.551 [Thread-17] [] INFO o.s.s.c.ThreadPoolTaskExecutor [shutdown,208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-20 16:32:05.552 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-3 - Shutdown initiated...
+2021-12-20 16:32:05.556 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-3 - Shutdown completed.
+2021-12-20 16:32:05.557 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-2 - Shutdown initiated...
+2021-12-20 16:32:05.561 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-2 - Shutdown completed.
+2021-12-20 16:32:05.561 [Thread-17] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [destroy,597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-20 16:32:05.564 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,350] - HikariPool-1 - Shutdown initiated...
+2021-12-20 16:32:05.567 [Thread-17] [] INFO com.zaxxer.hikari.HikariDataSource [close,352] - HikariPool-1 - Shutdown completed.
+2022-03-03 18:53:51.519 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 132 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-03 18:53:51.520 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-03 18:53:53.234 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-03 18:53:53.265 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2022-03-03 18:53:53.733 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$173ab992] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 18:53:54.185 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-03 18:53:54.200 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-03 18:53:54.209 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-03 18:53:54.210 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-03 18:53:54.412 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-03 18:53:54.413 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2835 ms
+2022-03-03 18:53:54.649 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-03 18:53:55.218 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-1 - Start completed.
+2022-03-03 18:53:55.506 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-03 18:53:55.508 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-03 18:53:55.755 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-03 18:53:56.162 [main] [] INFO org.hibernate.dialect.Dialect [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-03-03 18:53:58.588 [main] [] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory,415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-03 18:53:58.912 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-2 - Starting...
+2022-03-03 18:53:59.216 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-2 - Start completed.
+2022-03-03 18:53:59.327 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-3 - Starting...
+2022-03-03 18:53:59.481 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-3 - Start completed.
+2022-03-03 18:53:59.507 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-4 - Starting...
+2022-03-03 18:53:59.840 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,123] - HikariPool-4 - Start completed.
+2022-03-03 18:54:00.335 [main] [] INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-03 18:54:00.576 [main] [] INFO o.s.s.c.ThreadPoolTaskExecutor [initialize,171] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-03 18:54:00.780 [main] [] INFO o.s.b.c.r.s.JobRepositoryFactoryBean [afterPropertiesSet,184] - No database type set, using meta data indicating: MYSQL
+2022-03-03 18:54:00.798 [main] [] INFO o.s.b.c.l.support.SimpleJobLauncher [afterPropertiesSet,204] - No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-03 18:54:00.896 [main] [] INFO o.s.s.c.ThreadPoolTaskScheduler [initialize,171] - Initializing ExecutorService 'taskScheduler'
+2022-03-03 18:54:00.976 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,147] - Context refreshed
+2022-03-03 18:54:00.994 [main] [] INFO s.d.s.w.p.DocumentationPluginsBootstrapper [start,150] - Found 1 custom documentation plugin(s)
+2022-03-03 18:54:01.025 [main] [] INFO s.d.s.w.s.ApiListingReferenceScanner [scan,41] - Scanning for api listing references
+2022-03-03 18:54:01.321 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+2022-03-03 18:54:01.355 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [start,204] - Tomcat started on port(s): 8080 (http) with context path '/example'
+2022-03-03 18:54:01.358 [main] [] INFO m.m.springbatch.MainBootApplication [logStarted,59] - Started MainBootApplication in 10.349 seconds (JVM running for 12.867)
+2022-03-03 19:15:52.820 [main] [] INFO m.m.springbatch.MainBootApplication [logStarting,50] - Starting MainBootApplication on LAPTOP-ELPBIO4U with PID 10084 (F:\MyEdgeComputing\spring-batch-increment\target\classes started by lenovo in F:\MyEdgeComputing\spring-batch-increment)
+2022-03-03 19:15:52.821 [main] [] INFO m.m.springbatch.MainBootApplication [logStartupProfileInfo,679] - The following profiles are active: dev
+2022-03-03 19:15:54.296 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-03 19:15:54.326 [main] [] INFO o.s.d.r.c.RepositoryConfigurationDelegate [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2022-03-03 19:15:54.668 [main] [] INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6fe93db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 19:15:55.030 [main] [] INFO o.s.b.w.e.tomcat.TomcatWebServer [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+2022-03-03 19:15:55.046 [main] [] INFO o.a.coyote.http11.Http11NioProtocol [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-03 19:15:55.056 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Starting service [Tomcat]
+2022-03-03 19:15:55.057 [main] [] INFO o.a.catalina.core.StandardEngine [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-03 19:15:55.262 [main] [] INFO o.a.c.c.C.[.[localhost].[/example] [log,173] - Initializing Spring embedded WebApplicationContext
+2022-03-03 19:15:55.263 [main] [] INFO o.s.web.context.ContextLoader [prepareWebApplicationContext,296] - Root WebApplicationContext: initialization completed in 2402 ms
+2022-03-03 19:15:55.445 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-03 19:16:17.606 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-03 19:16:20.992 [main] [] INFO org.hibernate.Version [logVersion,46] - HHH000412: Hibernate Core {5.3.9.Final}
+2022-03-03 19:16:20.994 [main] [] INFO org.hibernate.cfg.Environment [<clinit>,213] - HHH000206: hibernate.properties not found
+2022-03-03 19:16:21.131 [main] [] INFO o.h.annotations.common.Version [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-03 19:16:21.337 [main] [] INFO com.zaxxer.hikari.HikariDataSource [getConnection,110] - HikariPool-1 - Starting...
+2022-03-03 19:16:25.135 [main] [] INFO o.a.catalina.core.StandardService [log,173] - Stopping service [Tomcat]
